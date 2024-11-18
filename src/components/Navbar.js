@@ -22,16 +22,20 @@ import logo from '../images/Zefiro_HLogo_NoBackground.png';
           >
             {darkMode ? 'Light' : 'Dark'}
           </button>
+
+          const [darkMode, setDarkMode] = useState(false);
+
+          const toggleTheme = () => {
+    setDarkMode(!darkMode);
+    document.body.classList.toggle('dark-mode', darkMode);
+  };
 */
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [darkMode, setDarkMode] = useState(false);
+  
 
-  const toggleTheme = () => {
-    setDarkMode(!darkMode);
-    document.body.classList.toggle('dark-mode', darkMode);
-  };
+  
 
   return (
     <nav className="navbar">

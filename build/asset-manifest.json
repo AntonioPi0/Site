@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.ffff3e47.css",
-    "main.js": "/static/js/main.e2cd5ee8.js",
+    "main.js": "/static/js/main.deaa47df.js",
     "static/js/453.1519a4e7.chunk.js": "/static/js/453.1519a4e7.chunk.js",
     "static/media/Zefiro_Logo_NoBackground.png": "/static/media/Zefiro_Logo_NoBackground.09b13a80cf5a818fe2f8.png",
     "static/media/Zefiro_HLogo_NoBackground.png": "/static/media/Zefiro_HLogo_NoBackground.93965c5cb2aa3ce43104.png",
     "index.html": "/index.html",
     "main.ffff3e47.css.map": "/static/css/main.ffff3e47.css.map",
-    "main.e2cd5ee8.js.map": "/static/js/main.e2cd5ee8.js.map",
+    "main.deaa47df.js.map": "/static/js/main.deaa47df.js.map",
     "453.1519a4e7.chunk.js.map": "/static/js/453.1519a4e7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ffff3e47.css",
-    "static/js/main.e2cd5ee8.js"
+    "static/js/main.deaa47df.js"
   ]
 }

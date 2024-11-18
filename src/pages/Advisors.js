@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Member from '../components/Member';
 import Footer from '../components/Footer';
-import ThemeToggle from '../components/ThemeToggle';
 import pic from '../images/Zefiro_Logo_NoBackground.png'
 
 const Advisors = () => {
