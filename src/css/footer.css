@@ -1,0 +1,26 @@
+/* footer section */
+
+footer {
+    background-color: #f4faff;
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 4rem;
+}
+
+.dark-mode footer {
+    background-color: #010e21;
+}
+
+.footer-line {
+    color:#0b0021;
+}
+
+.footer-bottom {
+    max-width: 1280px;
+    margin: 2rem auto 0;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    text-align: center;
+}

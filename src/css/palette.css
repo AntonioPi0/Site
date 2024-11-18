@@ -1,0 +1,10 @@
+/* This is the palette for the site (light mode and dark mode)*/
+
+:root {
+    --primary-color: #3B82F6;
+    --secondary-color: #06B6D4;
+    --background-color: #f4faff;
+    --background-dark: #111827;
+    --text-light: #111827;
+    --text-dark: #ffffff;
+}

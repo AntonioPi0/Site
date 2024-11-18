@@ -1,0 +1,27 @@
+
+.social-container {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.social-container h3 {
+    margin-bottom: 1.5rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.social-icon {
+    transition: transform 0.2s;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+.social-icon svg {
+    fill: #260563;
+}

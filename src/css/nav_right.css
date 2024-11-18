@@ -1,0 +1,32 @@
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  
+  .nav-list li {
+    padding: 18px 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-list {
+      flex-flow: column nowrap;
+      background-color: #031523;
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: 100vh;
+      width: 300px;
+      padding-top: 3.5rem;
+      transition: transform 0.3s ease-in-out;
+      transform: translateX(100%);
+    }
+  
+    .nav-list.open {
+      transform: translateX(0);
+    }
+  
+    .nav-list li {
+      color: #430606;
+    }
+  }
