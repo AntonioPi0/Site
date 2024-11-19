@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection';
 import WhoWeAreSection from '../components/WhoWeAreSection';
 import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
+import Timeline from '../components/Timeline';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Navbar />
       <HeroSection />
       <WhoWeAreSection />
+      <Timeline />
       <ContactSection />
       <Footer />
     </>

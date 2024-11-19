@@ -80,7 +80,6 @@ const Navbar = () => {
           >
             <div className="dropdown-title">
             <NavLink
-                to="/"
                 className={({isActive }) => (isActive ? 'noactive' : '')}
               >
                 TEAM
@@ -97,7 +96,14 @@ const Navbar = () => {
                 <NavLink to="/team_advisors">Advisors</NavLink>
               </div>
             }
+            
           </div>
+          <NavLink
+            to="/sponsors"
+            className={({ isActive }) => (isActive ? 'active' : '')}
+            >
+            SPONSORS
+            </NavLink>
           
          
         </div>

@@ -1,7 +1,6 @@
 .contact-section {
     text-align: center;
     padding: 4rem 0;
-    background-color: #f4faff;
 }
 
 .container {
@@ -16,7 +15,7 @@
 
 .contact-text {
     margin-bottom: 1rem;
-    font-size: 21px;
+    font-size: 1.2rem;
 }
 
 .contact-info {

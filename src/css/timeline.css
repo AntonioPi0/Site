@@ -1,0 +1,160 @@
+.timeline-section {
+    padding: 50px 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .timeline-container {
+    position: relative;
+    max-width: 750px; /* Reduced from 800px for narrower boxes */
+    width: 100%;
+  }
+  
+  /* Titolo allineato a sinistra e con uno spazio sotto */
+  .timeline-container h1 {
+    font-size: 2.5rem; /* Leggermente più piccolo */
+    font-weight: bold;
+    margin-bottom: 170px; /* Distacco maggiore sotto il titolo */
+    margin-top: -100px; /* Aumenta lo spazio sopra il titolo */
+    color: #260563;
+    background-clip: text;
+    text-align: left; /* Allineato a sinistra */
+}
+
+  
+.timeline-line {
+    position: absolute;
+    left: 26px; /* Posiziona la linea a sinistra */
+    top: 7px;
+    bottom: 0;
+    height: 900px;
+    width: 3px;
+    background-color: #260563;
+}
+
+.timeline-line::before {
+    content: '';
+    position: absolute;
+    top: -10px; /* Posiziona il pallino sopra la linea */
+    left: -10px; /* Centra il pallino sulla linea */
+    width: 25px; /* Dimensione del pallino grande */
+    height: 25px; /* Dimensione del pallino grande */
+    background-color: #260563;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.timeline-line::after {
+    content: '';
+    position: absolute;
+    bottom: -35px; /* Posiziona i trattini sotto la linea */
+    left: 0px; /* Centra i trattini con la linea verticale */
+    width: 3px; /* Larghezza dei trattini uguale alla linea verticale */
+    height: 30px; /* Altezza complessiva dei trattini aumentata per includere un altro trattino */
+    background: repeating-linear-gradient(
+        to bottom,
+        #260563,
+        #260563 5px, /* Altezza del singolo trattino */
+        transparent 5px,
+        transparent 10px,
+        #260563 10px,
+        #260563 15px,
+        transparent 15px,
+        transparent 20px,
+        #260563 20px,
+        #260563 25px,
+        transparent 25px,
+        transparent 30px
+    );
+}
+
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 45px;
+    margin-top: 20px;
+    padding-left: 40px; /* Increased to accommodate connecting line */
+  }
+  
+  /* Special styling for the first timeline point */
+  .timeline-item:first-child .timeline-point {
+    width: 20px;
+    height: 20px;
+    left: -3px; /* Adjust position to align with timeline */
+  }
+  
+  .timeline-point {
+    position: absolute;
+    left:21px;
+    top: 4px;
+    width: 14px;
+    height: 14px;
+    background-color: #260563;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
+  /* Adding connecting line between point and date */
+  .timeline-point::after {
+    content: '';
+    position: absolute;
+    left: 14px; /* Position after the point */
+    top: 50%;
+    width: 49px; /* Lunghezza della linea */
+    height: 1.5px; /* Spessore della linea */
+    background-color: transparent; /* Linea trasparente di base */
+    border-top: 1.5px dashed #260563; /* Linea tratteggiata */
+}
+  
+  .timeline-content {
+    position: relative;
+    background-color: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-left: 40px;
+    border: 1px solid #1d3557; /* Contorno blu scuro */
+}
+  
+  .timeline_year {
+    color: #666;
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+    margin-left: 50px; /* Add space after connecting line */
+    margin-top:60px;
+}
+  
+  .timeline-title {
+    color: #260563;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0 0 12px 0;
+  }
+  
+  .timeline-description {
+    color: #333;
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .timeline-section {
+      padding: 30px 15px;
+    }
+    
+    .timeline-content {
+      padding: 20px;
+    }
+    
+    .timeline-container {
+      max-width: 100%;
+    }
+    
+    .timeline-point::after {
+      width: 10px; /* Shorter connecting line on mobile */
+    }
+  }
