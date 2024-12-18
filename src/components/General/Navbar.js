@@ -2,34 +2,8 @@
 
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import '../css/main.css';
-import logo from '../images/Zefiro_HLogo_NoBackground.png';
-
-/*
-
- <button
-            id="theme-toggle"
-            onClick={toggleTheme}
-            className="theme-toggle"
-          >
-            {darkMode ? 'Dark' : 'Light'}
-          </button>
-
-  <button
-            id="theme-toggle-mobile"
-            onClick={toggleTheme}
-            className="theme-toggle"
-          >
-            {darkMode ? 'Light' : 'Dark'}
-          </button>
-
-          const [darkMode, setDarkMode] = useState(false);
-
-          const toggleTheme = () => {
-    setDarkMode(!darkMode);
-    document.body.classList.toggle('dark-mode', darkMode);
-  };
-*/
+import '../../css/main.css';
+import logo from '../../images/Zefiro_HLogo_NoBackground.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -80,29 +54,20 @@ const Navbar = () => {
           >
             <div className="dropdown-title">
             <NavLink
-                className={({isActive }) => (isActive ? 'noactive' : '')}
+                to="/team"
+                className={({isActive }) => (isActive ? 'active' : '')}
               >
                 TEAM
               </NavLink>
               
             </div>
-
-            {
-              <div className="dropdown-content">
-                <NavLink 
-                 to="/team_students"
-                 className={({isActive }) => (isActive ? 'active' : '')}>
-                  Students</NavLink>
-                <NavLink to="/team_advisors">Advisors</NavLink>
-              </div>
-            }
             
           </div>
           <NavLink
-            to="/sponsors"
+            to="/apply"
             className={({ isActive }) => (isActive ? 'active' : '')}
             >
-            SPONSORS
+            APPLY
             </NavLink>
           
          

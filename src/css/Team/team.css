@@ -1,0 +1,101 @@
+
+
+.president-section {
+  margin-bottom: 50px;
+  padding-top: 100px;
+  margin-top: 20px;
+}
+
+.president {
+  display: inline-block;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+/* Stile per il presidente */
+.president-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Layout per i responsabili */
+.managers-container {
+  display: flex;
+  flex-wrap: wrap; /* Consente di andare a capo se necessario */
+  justify-content: center; /* Centra gli elementi orizzontalmente */
+  gap: 50px; /* Spaziatura tra i responsabili */
+}
+
+.advisors-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+/*/*/
+
+
+
+
+.departments-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Due colonne */
+  gap: 60px; /* Spaziatura tra i blocchi */
+  margin: 20px auto;
+  padding: 28px;
+  max-width: 1200px; /* Imposta una larghezza massima per allineamento */
+}
+
+.department-item {
+  display: flex;
+  flex-direction: column;
+  background: #ebeff6;
+  border: 1px solid #cbc9c9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+
+.department-container h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: center ;
+}
+
+.department-manager {
+  justify-content: center;
+  padding: 10px;
+}
+
+.department-container ul {
+  list-style: none;
+  background-color: #c6d7f3;
+  padding: 5px;
+  margin: 0;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+
+.department-container ul li {
+  margin: 5px 0;
+  color: #333;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+
+
+/*/*/

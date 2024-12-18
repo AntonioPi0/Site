@@ -1,0 +1,21 @@
+.who-section {
+    padding: 6rem 0;
+}
+
+.who-container h2 {
+    text-align: left;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #260563;
+}
+
+.who-content {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.who-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}

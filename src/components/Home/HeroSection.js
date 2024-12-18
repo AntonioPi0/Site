@@ -1,7 +1,6 @@
 import React from 'react';
-import '../css/main.css';
+import '../../css/main.css';
 import 'animate.css';
-
 
 const HeroSection = () => {
   return (

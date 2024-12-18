@@ -1,16 +1,16 @@
 import React from 'react';
 import Navbar from '../components/General/Navbar';
-import Mission from '../components/About/Mission';
+import Apply_page from '../components/Apply/Apply_page';
 import Footer from '../components/General/Footer';
 
-const About = () => {
+const Apply = () => {
   return (
     <>
       <Navbar />
-      <Mission />
+      <Apply_page />
       <Footer />
     </>
   );
 };
 
-export default About;
+export default Apply;

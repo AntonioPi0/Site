@@ -1,0 +1,88 @@
+/* General sponsor section styling */
+.sponsor {
+    text-align: center;
+    padding-bottom: 120px;
+}
+  
+.sponsor-container {
+    margin: 0 auto;
+}
+
+.sponsor-container h2 {
+    text-align: left;
+    font-size: 2.5rem;
+    padding-bottom: 40px;
+    color: #260563;
+}
+  
+.sponsor-content {
+    position: relative;
+    display: inline-block;
+    width: 300px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    overflow: hidden;
+    border-radius: 8px; /* Rounded corners for the box */
+    transition: box-shadow 0.3s ease, padding 0.3s ease;
+}
+  
+.sponsor-logo {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+  
+.sponsor-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.1); /* Semi-transparent black overlay */
+    color: black;
+    opacity: 0;
+    padding: 10px;
+    text-align: center;
+    transition: opacity 0.3s ease;
+}
+  
+.sponsor-content:hover .sponsor-logo {
+    opacity: 0.05;
+}
+  
+.sponsor-content:hover .sponsor-overlay {
+    opacity: 1;
+}
+  
+.sponsor-content:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border: 1px solid black;
+    background: #fff; /* Adds a light background for the padding */
+    border-radius: 6px; /* Maintain rounded corners */
+}
+  
+.sponsor-description {
+    text-align: left;
+    font-size: 14px;
+}
+  
+  /* Sponsor button styling */
+  .sponsor-button {
+    display: inline-block;
+    padding: 7px 10px;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #260563;
+    border: 1px solid #260563;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  
+  .sponsor-button:hover {
+    scale: 1.02;
+  }
+  
