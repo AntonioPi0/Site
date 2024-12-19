@@ -1,7 +1,7 @@
 import React from "react";
 import '../../css/main.css';
 
-const Apply_page = () => {
+const ApplyPage = () => {
   const googleFormLink = "https://forms.gle/your-google-form-link"; // Sostituisci con il link del tuo modulo
 
   return (
@@ -40,4 +40,4 @@ const Apply_page = () => {
   );
 };
 
-export default Apply_page;
+export default ApplyPage;

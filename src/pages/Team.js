@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Navbar from '../components/General/Navbar';
 import Footer from '../components/General/Footer';
 import profilePic from '../images/Zefiro_Logo_NoBackground.png'; // Replace with actual image
@@ -99,9 +99,6 @@ const Team = () => {
       ]
     }
   ];
-
-  // Stato per il dipartimento selezionato
-  const [selectedDepartment, setSelectedDepartment] = useState(null);
 
   return (
     <div className="students-page">

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from'react';
 import '../../css/main.css';
 import logo_dassault from '../../images/Sponsors/Dassault_logo.png';
 

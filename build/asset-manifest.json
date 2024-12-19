@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.07001eee.css",
-    "main.js": "/static/js/main.8667ae26.js",
+    "main.css": "/static/css/main.16b9ad5b.css",
+    "main.js": "/static/js/main.65fcd7a7.js",
     "static/js/453.1519a4e7.chunk.js": "/static/js/453.1519a4e7.chunk.js",
+    "static/media/Dassault_logo.png": "/static/media/Dassault_logo.68a297ca739aa3b3d420.png",
+    "static/media/immagine_Lerro.png": "/static/media/immagine_Lerro.514cf17fc1b853f769a4.png",
+    "static/media/immagine_Avallone.png": "/static/media/immagine_Avallone.916a4b5dea768f45b9f5.png",
     "static/media/Zefiro_Logo_NoBackground.png": "/static/media/Zefiro_Logo_NoBackground.09b13a80cf5a818fe2f8.png",
     "static/media/Zefiro_HLogo_NoBackground.png": "/static/media/Zefiro_HLogo_NoBackground.93965c5cb2aa3ce43104.png",
     "index.html": "/index.html",
-    "main.07001eee.css.map": "/static/css/main.07001eee.css.map",
-    "main.8667ae26.js.map": "/static/js/main.8667ae26.js.map",
+    "main.16b9ad5b.css.map": "/static/css/main.16b9ad5b.css.map",
+    "main.65fcd7a7.js.map": "/static/js/main.65fcd7a7.js.map",
     "453.1519a4e7.chunk.js.map": "/static/js/453.1519a4e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07001eee.css",
-    "static/js/main.8667ae26.js"
+    "static/css/main.16b9ad5b.css",
+    "static/js/main.65fcd7a7.js"
   ]
 }
