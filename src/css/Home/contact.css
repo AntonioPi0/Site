@@ -1,12 +1,16 @@
 .contact-section {
-    text-align: center;
+    text-align: left;
     padding: 4rem 0;
 }
 
-.container {
-    max-width: 800px;
+.contact-container {
     margin: 0 auto;
-    padding: 0 20px;
+}
+
+.contact-container h2 {
+    text-align: left;
+    font-size: 2rem;
+    color: #260563;
 }
 
 .contact-content {

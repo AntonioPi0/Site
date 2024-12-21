@@ -8,9 +8,6 @@ import logo from '../../images/Zefiro_HLogo_NoBackground.png';
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   
-
-  
-
   return (
     <nav className="navbar">
       <div className="nav-content">
@@ -49,20 +46,21 @@ const Navbar = () => {
           >
             ABOUT
           </NavLink>
-          <div 
-            className="dropdown" 
+          
+          <NavLink
+              to="/team"
+              className={({isActive }) => (isActive ? 'active' : '')}
           >
-            <div className="dropdown-title">
-            <NavLink
-                to="/team"
-                className={({isActive }) => (isActive ? 'active' : '')}
-              >
-                TEAM
-              </NavLink>
+            TEAM
+          </NavLink>
+          
+          <NavLink
+              to="/sponsors"
+              className={({isActive }) => (isActive ? 'active' : '')}
+          >
+            SPONSORS
+          </NavLink>
               
-            </div>
-            
-          </div>
           <NavLink
             to="/apply"
             className={({ isActive }) => (isActive ? 'active' : '')}

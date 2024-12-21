@@ -6,7 +6,6 @@
 @import './Home/HomePage.css';
 @import './Home/hero.css';
 @import './Home/who.css';
-@import './Home/sponsor.css';
 @import './Home/timeline.css';
 @import './Home/contact.css';
 @import './Home/social.css';
@@ -16,6 +15,10 @@
 @import './Team/team.css';
 @import './Team/advisors.css';
 @import './Team/manager.css';
+@import './Team/piecharts.css';
+
+@import './Sponsor/sponsors_page.css';
+@import './Sponsor/sponsor.css';
 
 @import './Apply/apply.css';
 
@@ -26,7 +29,7 @@
 }
 
 body {
-    font-family: 'Merriweather', serif;
+    font-family: 'Ubuntu', sans-serif;
     background-color: var(--background-light);
     color: var(--text-light);
     transition: background-color 0.3s, color 0.3s;

@@ -1,0 +1,73 @@
+/* Container principale del pie chart */
+.pie-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .pie-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .pie-content {
+    display: flex;
+    align-items: center; /* Allinea verticalmente */
+    justify-content: center;
+    gap: 2rem; /* Distanza tra la torta e la legenda */
+    width: 100%;
+  }
+  
+  /* Tooltip */
+  .piechart-payload {
+    background-color: rgb(249, 249, 249);
+    padding: 0.5rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e2e2;
+  }
+  
+  /* Legenda */
+  .legend-container {
+    margin-left: -40px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .legend-color-box {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #e2e2e2;
+    border-radius: 2px;
+  }
+  
+  .legend-text {
+    font-size: 0.875rem;
+  }
+
+
+.piecharts-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Due colonne */
+    gap: 60px; /* Spaziatura tra i blocchi */
+    margin: 20px auto;
+    padding: 28px;
+    max-width: 1200px; /* Imposta una larghezza massima per allineamento */
+}
+  
+
+.departments-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Due colonne */
+    gap: 30px; /* Spaziatura tra i blocchi */
+  }

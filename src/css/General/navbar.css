@@ -4,8 +4,8 @@
     top: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.95);
-    border-bottom: 1px solid #e5e7eb;
-    z-index: 1000;
+    border-bottom: 1px solid #d2d5dc;
+    z-index: 2000;
   }
   
   .nav-content {
@@ -18,25 +18,25 @@
   }
   
   .logo img {
-    height: 50px;
+    height: 60px;
   }
   
   .nav-links {
     display: flex;
-    gap: 2rem;
-    transition: transform 0.3s ease;
+    gap: 3rem;
   }
   
   .nav-links a {
     text-decoration: none;
     color: #16043a;
     font-weight: bold;
+    font-size: 18px;
     transition: color 0.3s ease;
   }
   
   .nav-links a:hover,
   .nav-links a.active {
-    color: #0073e6; /* Active link color */
+    color: #0c4680; /* Active link color */
   }
 
   .dropdown-title {

@@ -1,10 +1,9 @@
-
 import React from 'react';
 import '../../css/main.css';
 
-const Manager = ({ image, name, surname, role, email, linkedin }) => {
+const Manager = ({ image, name, surname, role, email, linkedin, large = false }) => {
   return (
-    <div className="manager-card">
+    <div className={`manager-card ${large ? 'large-card' : ''}`}>
       <div className="manager-photo">
         <img src={image} alt={`${name} ${surname}`} />
       </div>
@@ -12,7 +11,7 @@ const Manager = ({ image, name, surname, role, email, linkedin }) => {
         <h3>{name} {surname}</h3>
         <p className="manager-role">{role}</p>
         <div className="manager-icons">
-          <a href= {email}  rel="noreferrer" className="email-icon">
+          <a href={`mailto:${email}`} rel="noreferrer" className="email-icon">
             <svg className="email-icon" viewBox="0 0 24 24" width="24" height="24">
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
               <polyline points="22,6 12,13 2,6"></polyline>
@@ -24,7 +23,6 @@ const Manager = ({ image, name, surname, role, email, linkedin }) => {
             </svg>
           </a>
         </div>
-
       </div>
     </div>
   );

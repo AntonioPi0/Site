@@ -1,58 +1,21 @@
-"use client";
-
 import React, { useState } from "react";
 import Manager from "./Manager";
 import '../../css/main.css';
 
-const Department = ({ name, leader, members, subDepartments }) => {
-  const [expandedSubDepts, setExpandedSubDepts] = useState([]);
-
-  const toggleSubDepartment = (index) => {
-    setExpandedSubDepts((prev) =>
-      prev.includes(index) ? prev.filter((i) => i !== index) : [...prev, index]
-    );
-  };
+const Department = ({ name,subDepartments }) => {
 
   return (
     <div className="department-container">
       {/* Nome e Responsabile Generale */}
       <h3>{name}</h3>
-      <div className="department-manager">
-        <Manager
-          image={leader.image}
-          name={leader.name}
-          surname={leader.surname}
-          role={leader.role}
-          email={leader.email}
-          linkedin={leader.linkedin}
-        />
-      </div>
-
-      {members && members.length > 0 && (
-        <div>
-          <h4>Membri del Dipartimento</h4>
-          <ul>
-            {members.map((member, index) => (
-              <li key={index}>{member}</li>
-            ))}
-          </ul>
-        </div>
-      )}
 
       {/* Sottodipartimenti */}
       {subDepartments && subDepartments.length > 0 && (
         <div className="subdepartments-section">
           {subDepartments.map((subDepartment, index) => (
             <div key={index} className="subdepartment">
-              {/* Nome del Sottodipartimento (click per espandere/comprimere) */}
-              <h4
-                onClick={() => toggleSubDepartment(index)}
-              >
-                {subDepartment.name}
-              </h4>
+                <h4>{subDepartment.name}</h4>
 
-              {/* Contenuto del sottodipartimento, visibile solo se espanso */}
-              {expandedSubDepts.includes(index) && (
                 <div className="subdepartment-content">
                   <div className="subdepartment-manager">
                     <Manager
@@ -75,7 +38,6 @@ const Department = ({ name, leader, members, subDepartments }) => {
                     </div>
                   )}
                 </div>
-              )}
             </div>
           ))}
         </div>

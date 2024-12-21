@@ -61,10 +61,6 @@ h2 {
 .department-item {
   display: flex;
   flex-direction: column;
-  background: #ebeff6;
-  border: 1px solid #cbc9c9;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 15px;
 }
 
@@ -72,7 +68,7 @@ h2 {
 .department-container h3 {
   margin: 0;
   font-size: 1.5rem;
-  text-align: center ;
+  text-align: left;
 }
 
 .department-manager {
@@ -82,10 +78,8 @@ h2 {
 
 .department-container ul {
   list-style: none;
-  background-color: #c6d7f3;
   padding: 5px;
   margin: 0;
-  border: 1px solid #333;
   border-radius: 10px;
 }
 
@@ -93,7 +87,18 @@ h2 {
   margin: 5px 0;
   color: #333;
   font-size: 1rem;
-  font-style: italic;
+}
+
+.team h2 {
+  text-align: left;
+  color:#333;
+  font-size: 2rem;
+}
+
+.team {
+  max-width: 1200px; /* Larghezza massima della pagina */
+  margin: 0 auto; /* Centrare il contenitore */
+  padding: 0 20px; /* Aggiunge margini interni laterali */
 }
 
 

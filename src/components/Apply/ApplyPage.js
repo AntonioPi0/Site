@@ -2,7 +2,7 @@ import React from "react";
 import '../../css/main.css';
 
 const ApplyPage = () => {
-  const googleFormLink = "https://forms.gle/your-google-form-link"; // Sostituisci con il link del tuo modulo
+  const googleFormLink = "https://docs.google.com/forms/d/e/1FAIpQLSfBa4Jo_jN1BNf3HRZGnC5JyPGT_sfu1EGAc7V6rkDczt3CXQ/viewform"; // Sostituisci con il link del tuo modulo
 
   return (
     <div className="apply-container">
@@ -24,8 +24,7 @@ const ApplyPage = () => {
         </p>
 
         <h3>Come si svolge il colloquio</h3> 
-        <p>Durante il colloquio discuteremo le tue competenze, esperienze e motivazioni. 
-            È anche un'opportunità per fare domande sul nostro team e sui progetti.
+        <p>Il processo di selezione è caratterizzato da due colloqui: un primo incontro durante il quale discuteremo le tue competenze, esperienze e motivazioni.  Sarà anche un'opportunità per fare domande sul nostro team e sui progetti in essere. Una volta superata questa prima fase, ti inviteremo a completare una task connessa all'area di tuo interesse.
           </p>
         <p>
           Non vediamo l'ora di conoscerti e scoprire come puoi contribuire al successo del nostro team!

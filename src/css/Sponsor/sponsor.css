@@ -1,0 +1,86 @@
+.sponsor-container {
+    margin: 10px auto; /* Spazio tra i box */
+    position: relative;
+    display: inline-block;
+    width: 480px; /* Dimensione più piccola rispetto a prima */
+    height: 280px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Per animare l'hover */
+}
+
+.sponsor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Massimo 3 colonne */
+    gap: 20px; /* Spazio tra le righe e le colonne */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.sponsor-image {
+    position: relative;
+    width: 100%; /* Adatta l'immagine al contenitore */
+    height: 100%; 
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sponsor-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.2); /* Colore scuro per l'overlay */
+    color: white;
+    opacity: 0;
+    padding: 10px;
+    text-align: center;
+    transition: opacity 0.3s ease;
+}
+
+.sponsor-container:hover .sponsor-image {
+    transform: scale(1.1); /* Ingrandisce leggermente l'immagine */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Ombra più evidente */
+}
+
+.sponsor-container:hover .sponsor-overlay {
+    opacity: 1;
+}
+
+.sponsor-container:hover {
+    transform: scale(1.05); /* Ingrandisce il box */
+}
+
+.sponsor-description {
+    text-align: left;
+    font-size: 14px;
+}
+
+.sponsor-button {
+    display: inline-block;
+    padding: 7px 10px;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #260563;
+    border: 1px solid #260563;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.sponsor-button:hover {
+    scale: 1.1;
+}
+
+
+
+.sponsors-container {
+    max-width: 1200px;
+    margin: 0 auto; /* Centrare il contenitore */
+    padding: 0 20px; /* Aggiunge margini interni laterali */
+    margin-top: 50px;
+}

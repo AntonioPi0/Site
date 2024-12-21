@@ -1,73 +1,83 @@
-/* Member Card Styles */
+/* Manager Card Styles */
 .manager-card {
-    display: flex;
-    align-items: center;
-    padding: 0.5rem;
-    border-radius: 10px;
-    background-color: #f3f4f6;
-    margin-bottom: 1.5rem;
-  }
-  
-  /* Image Style */
-  .manager-photo {
-    width: 80px;
-    height: 80px;
-    border-radius: 30%;
-    overflow: hidden;
-    margin-right: 1.5rem;
-  }
-  
-  .manager-photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  /* Info Section Style */
-  .manager-info h3 {
-    margin: 0;
-    font-size: 1rem;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  .manager-role {
-    margin-top: 0.2rem;
-    color: #666;
-    font-size: 0.7rem;
-    font-weight: bold;
-  }
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
 
-  .manager-icons {
-    display: flex;
-    gap: 1rem;
-    width: 40px; /* Ensure both icons have the same dimensions */
-    height: 40px;
-    padding-top: 10px;
-    fill: none; /* Default state */
-    stroke: #c20c0c; /* Default stroke color */
-    stroke-width: 2;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    transition: fill 0.3s ease, stroke 0.3s ease;
-  }
-  
-  /* Email Icon (default stroke-only) */
-  .email-icon {
-    stroke: #18033b; /* Email color (matches LinkedIn corner color) */
-  }
-  
-  /* LinkedIn Icon */
-  .linkedin-icon svg{
-    fill: #18033b; /* Same color as email stroke */
-    stroke: none; /* No stroke for LinkedIn icon */
-  }
+/* Image Style */
+.manager-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 30%;
+  overflow: hidden;
+  margin-right: 1.5rem;
+}
 
-  .email-icon:hover {
-    transform: scale(1.02);
-  }  
-  
-  .linkedin-icon:hover {
-    transform: scale(1.02);
-  }   
-  
+.manager-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Large Card Style */
+.large-card .manager-photo {
+  width: 110px;
+  height: 110px;
+}
+
+.large-card .manager-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Info Section Style */
+.manager-info h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.manager-role {
+  margin-top: 0.2rem;
+  color: #666;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.manager-icons {
+  display: flex;
+  gap: 1rem;
+  width: 50px;
+  height: 40px;
+  padding-top: 10px;
+  fill: none;
+  stroke: #c20c0c;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: fill 0.3s ease, stroke 0.3s ease;
+}
+
+/* Email Icon */
+.email-icon {
+  stroke: #18033b;
+}
+
+.email-icon:hover {
+  transform: scale(1.02);
+}
+
+/* LinkedIn Icon */
+.linkedin-icon svg {
+  fill: #18033b;
+  stroke: none;
+}
+
+.linkedin-icon:hover {
+  transform: scale(1.02);
+}
