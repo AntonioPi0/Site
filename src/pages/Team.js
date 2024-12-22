@@ -22,7 +22,7 @@ const Team = () => {
     surname: 'Franzoni',
     role: 'President',
     email: 'mirko.franzoni@studenti.polito.it',
-    linkedin: 'https://www.linkedin.com/in/mirkofranzoni',
+    linkedin: 'https://www.linkedin.com/in/mirko-franzoni-578b21270/',
     large: true
   };
 

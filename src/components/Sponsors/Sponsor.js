@@ -6,18 +6,19 @@ const Sponsor = ({image, description, link}) => {
         <div className='sponsor-image'>
           <img src={image} alt={`${link}`}/>
         </div>
+
         <div className='sponsor-overlay'>
           <p className='sponsor-description'>
             {description}
           </p>
           <a 
-                  href={link} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="sponsor-button"
-                >
-                  Visit Their Website
-                </a>
+            href={link} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="sponsor-button"
+          >
+            Visit Their Website
+          </a>
         </div>
       </div>
       

@@ -38,7 +38,7 @@
     background: rgba(0, 0, 0, 0.2); /* Colore scuro per l'overlay */
     color: white;
     opacity: 0;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     transition: opacity 0.3s ease;
 }
@@ -53,7 +53,7 @@
 }
 
 .sponsor-container:hover {
-    transform: scale(1.05); /* Ingrandisce il box */
+    transform: scale(1.04); /* Ingrandisce il box */
 }
 
 .sponsor-description {
