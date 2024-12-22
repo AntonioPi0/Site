@@ -4,7 +4,7 @@ const Sponsor = ({image, description, link}) => {
     return (
       <div className='sponsor-container'>
         <div className='sponsor-image'>
-          <img src={image} />
+          <img src={image} alt={`${link}`}/>
         </div>
         <div className='sponsor-overlay'>
           <p className='sponsor-description'>

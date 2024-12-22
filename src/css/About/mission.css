@@ -1,24 +1,26 @@
-
 .mission {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex; /* Usa Flexbox per creare layout a due colonne */
+  flex-wrap: wrap; /* Consenti la disposizione su più righe per schermi piccoli */
+  gap: 40px; /* Spazio tra i due blocchi di testo */
 }
 
-
 .mission h2 {
-    text-align: left;
-    font-size: 3rem;
-    color: #1b096c;
-    margin-bottom: 20px;
-    margin-top: 150px;
-  }
+  text-align: left;
+  font-size: 4rem;
+  color: #1b096c;
+  margin-bottom: 20px;
+  margin-top: 180px;
+  flex-basis: 100%; /* Forza il titolo a occupare tutta la larghezza */
+}
 
-  
 .mission p {
-    margin-top: 40px;
-    font-size: 1.1rem;
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 10px;
-  }
+  flex: 1 1 calc(50% - 20px); /* Ogni paragrafo occupa il 50% meno il gap */
+  margin-top: 20px; /* Ridotto per un layout più compatto */
+  font-size: 1.1rem;
+  color: #111010;
+  line-height: 1.8; /* Aumenta la distanza tra le linee */
+  margin-bottom: 10px;
+}

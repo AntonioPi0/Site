@@ -1,52 +1,38 @@
 
-
-.president-section {
-  margin-bottom: 50px;
-  padding-top: 100px;
-  margin-top: 20px;
+.team {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+  border-radius: 8px;
 }
+
+.team h1 {
+  text-align: left;
+  font-size: 4rem;
+  color: #1b096c;
+  margin-top: 180px;
+  flex-basis: 100%; /* Forza il titolo a occupare tutta la larghezza */
+}
+
+.team h2 {
+  text-align: left;
+  font-size: 2rem;
+  color: #1b096c;
+  margin-bottom: 50px;
+  margin-top: 90px;
+  flex-basis: 100%; /* Forza il titolo a occupare tutta la larghezza */
+}
+
 
 .president {
   display: inline-block;
-  padding-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
-
-/* Stile per il presidente */
-.president-section {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-/* Layout per i responsabili */
-.managers-container {
-  display: flex;
-  flex-wrap: wrap; /* Consente di andare a capo se necessario */
-  justify-content: center; /* Centra gli elementi orizzontalmente */
-  gap: 50px; /* Spaziatura tra i responsabili */
-}
-
-.advisors-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-}
-
-h2 {
-  margin-top: 30px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-
-/*/*/
-
-
 
 
 .departments-container {
@@ -89,18 +75,10 @@ h2 {
   font-size: 1rem;
 }
 
-.team h2 {
-  text-align: left;
-  color:#333;
-  font-size: 2rem;
+
+.advisors-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
 }
-
-.team {
-  max-width: 1200px; /* Larghezza massima della pagina */
-  margin: 0 auto; /* Centrare il contenitore */
-  padding: 0 20px; /* Aggiunge margini interni laterali */
-}
-
-
-
-/*/*/

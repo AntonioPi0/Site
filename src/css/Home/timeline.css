@@ -70,6 +70,8 @@
   
   .timeline-item {
     position: relative;
+    width: auto;
+    height: auto;
     margin-bottom: 45px;
     margin-top: 20px;
     padding-left: 40px; /* Increased to accommodate connecting line */
@@ -104,16 +106,19 @@
     background-color: transparent; /* Linea trasparente di base */
     border-top: 1.5px dashed #260563; /* Linea tratteggiata */
 }
-  
-  .timeline-content {
-    position: relative;
-    background-color: white;
-    padding: 24px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 10px;
-    margin-left: 40px;
-    border: 1px solid #1d3557; /* Contorno blu scuro */
+
+.timeline-content {
+  position: relative;
+  background-color: white;
+  padding: 16px; /* Riduci il padding per diminuire l'altezza */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  margin-left: 40px;
+  border: 1px solid #1d3557; /* Contorno blu scuro */
+  width: auto; /* Consenti una larghezza dinamica */
+  max-width: 80%; /* Impedisci che diventi troppo largo */
+  height: auto; /* Consenti un'altezza dinamica */
 }
   
   .timeline_year {
@@ -137,20 +142,3 @@
     line-height: 1.5;
   }
   
-  @media (max-width: 800px) {
-    .timeline-section {
-      padding: 30px 0px;
-    }
-    
-    .timeline-content {
-      padding: 20px;
-    }
-    
-    .timeline-container {
-      max-width: 100%;
-    }
-    
-    .timeline-point::after {
-      width: 10px; /* Shorter connecting line on mobile */
-    }
-  }

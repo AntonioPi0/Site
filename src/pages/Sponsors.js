@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Navbar from '../components/General/Navbar';
 import Sponsor from '../components/Sponsors/Sponsor';
 import Footer from '../components/General/Footer';
@@ -7,6 +7,10 @@ import polito_page from '../images/Sponsors/Politecnico_logo.png';
 import '../css/main.css';
 
 const Sponsors = () => {
+
+  useEffect(() => {
+    document.title = "Sponsors - Zefiro"; // Change the title to "About"
+  }, []);
 
   const sponsors = [
     {image: polito_page, description:"Politecnico di Torino, established in 1859, is a leading technical university in Italy,excelling in engineering, architecture, and innovation. Renowned for its research and global partnerships, it prepares students for future technological challenges.",
@@ -22,39 +26,34 @@ const Sponsors = () => {
 
       
       <h2>Sponsors</h2>
+        <p>
+        If your company shares our vision of growth, development, and innovation, we invite you to become our partner. With your financial or technical support, we can achieve ambitious goals together.
+        </p>
+
+      <h4>Why become our sponsor</h4>
+        <ul>
+          <li>Increase your company's visibility in a dynamic and impactful context.</li>
+          <li>Opportunity to collaborate on an innovative and cutting-edge project.</li>
+          <li>Active participation in grand challenges.</li>
+        </ul>
+
       <p>
-      Se la tua azienda condivide la nostra visione di crescita, sviluppo e innovazione, ti invitiamo a diventare nostro partner. Con il tuo supporto finanziario o tecnico, possiamo raggiungere insieme traguardi ambiziosi.
+      Join us and showcase your commitment to the growth of urban air mobility and the development of VTOL vehicles. Contact us to find out how we can work together!
       </p>
 
-      <h4>Perché diventare nostro sponsor:</h4>
-      <ul>
-        <li>Aumento della visibilità della tua azienda in un contesto dinamico e impattante.</li>
-        <li>Opportunità di collaborare in un progetto innovativo e all'avanguardia.</li>
-        <li>Partecipazione attiva in sfide grandiose</li>
-      </ul>
-
-      <p>
-      Unisciti a noi e metti in luce il tuo impegno verso la crescita della mobilità aerea urbana e lo sviluppo dei velivoli VTOL. Contattaci per scoprire come possiamo lavorare insieme!
-
-      </p>
-
-
-      
-      <h3>Principali sponsors</h3>
+      <h3>Main Sponsors</h3>
+        <div className='sponsors-container'>
+          {sponsors.map((sponsor) => (
+              <div className='sponsor-item'>
+                  <Sponsor 
+                      image={sponsor.image}
+                      description={sponsor.description}
+                      website={sponsor.website}
+                  />
+              </div>
+          ))}
+        </div>
       </div>
-      <div className='sponsors-container'>
-        {sponsors.map((sponsor) => (
-            <div className='sponsor-item'>
-                <Sponsor 
-                    image = {sponsor.image}
-                    description={sponsor.description}
-                    website={sponsor.website}
-                />
-            </div>
-        ))}
-      </div>
-
-
       <Footer />
     </>
   );

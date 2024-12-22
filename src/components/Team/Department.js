@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Manager from "./Manager";
 import '../../css/main.css';
 
@@ -17,16 +17,22 @@ const Department = ({ name,subDepartments }) => {
                 <h4>{subDepartment.name}</h4>
 
                 <div className="subdepartment-content">
-                  <div className="subdepartment-manager">
-                    <Manager
-                      image={subDepartment.leader.image}
-                      name={subDepartment.leader.name}
-                      surname={subDepartment.leader.surname}
-                      role={subDepartment.leader.role}
-                      email={subDepartment.leader.email}
-                      linkedin={subDepartment.leader.linkedin}
-                    />
-                  </div>
+
+                  {subDepartment.leaders && subDepartment.leaders.length > 0 && (
+                    <div>
+                        {subDepartment.leaders.map((leader, idx) => (
+                          <Manager
+                          image={leader.image}
+                          name={leader.name}
+                          surname={leader.surname}
+                          role={leader.role}
+                          email={leader.email}
+                          linkedin={leader.linkedin}
+                        />
+                        ))}
+                    </div>
+                  )}
+
                   {subDepartment.members && subDepartment.members.length > 0 && (
                     <div>
                       <h5>Membri</h5>

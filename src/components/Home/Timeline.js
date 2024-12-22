@@ -6,22 +6,23 @@ const Timeline = () => {
     {
       date: "July 2024",
       title: "The beginning",
-      description: <>Nascita dell'idea</>
+      description: <>Some friends who study aerospace engineering decide they want to start a team to work on sustainable mobility via drones </>
     },
     {
-      date: "November 2024",
-      title: "Team approval",
-      description: <>Nascita del team a livello ufficiale, inizio del lavoro per competizione di design</>
-    },
-    {
-      date: "March 2024",
+      date: "May 2025",
       title: "Design Competition",
-      description: <>Prima competizione per il team</>
+      description: <>Annual Student Design Competition, VFS, Pioneering Hydrogen-Electric
+       VTOL, sponsored by Airbus</>
     },
     {
-      date: "April 2024",
-      title: "First Recruitment",
-      description: <>Primo Recruitment</> 
+      date: "March 2026",
+      title: "Design-Build Competition ",
+      description: <>Annual VFS Design-Build-Vertical Flight Competition</>
+    },
+    {
+      date: "June 2026",
+      title: "Conference TU Delft",
+      description: <>Participation in a conference on advanced air mobility at TU Delft</> 
     },
   ];
 

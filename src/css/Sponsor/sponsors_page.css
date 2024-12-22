@@ -1,36 +1,22 @@
-.sponsors-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Max 3 per row */
-    gap: 20px; /* Space between grid items */
-    margin-top: 200px;
-    padding: 20px;
-    max-width: 1200px; /* Adjust as needed */
-}
-
-.sponsor-item {
-    display: flex;
-    justify-content: center;
-}
-
 
 .sponsors {
-    margin: 40px auto;
-    padding: 20px;
-    max-width: 1200px;
-    border-radius: 8px;
-  }
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+  border-radius: 8px;
+}
   
 .sponsors h2 {
     text-align: left;
-    font-size: 3rem;
+    font-size: 4rem;
     color: #1b096c;
-    margin-bottom: 20px;
-    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-top: 180px;
   }
 
   
 .sponsors p {
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 1.1rem;
     color: #555;
     line-height: 1.6;
@@ -39,6 +25,7 @@
   
   .sponsors ul {
     margin-left: 20px;
+    margin-top: 15px;
     list-style-type: disc;
   }
   
@@ -48,15 +35,33 @@
 
   .sponsors h3 {
     text-align: left;
-    font-size: 2rem;
+    font-size: 2.4rem;
     color: #260563;
-    margin-top:100px;
+    margin-top:70px;
   }
 
   .sponsors h4 {
     text-align: left;
-    font-size: 1.3rem;
-    color: #260563;
-    margin-top:20px;
-    margin-bottom:20px;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    color: #1b096c;
+    flex-basis: 100%; /* Forza il titolo a occupare tutta la larghezza */
   }
+
+
+
+/* Referred to logos*/
+
+  .sponsors-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Max 3 per row */
+    gap: 20px; /* Space between grid items */
+    margin-top: 200px;
+    padding: 20px;
+    max-width: 1400px; /* Adjust as needed */
+}
+
+.sponsor-item {
+    display: flex;
+    justify-content: center;
+}

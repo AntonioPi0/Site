@@ -1,32 +1,33 @@
 .apply-container {
-    margin: 40px auto;
-    padding: 20px;
-    max-width: 1200px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px;
     border-radius: 8px;
   }
-  
-  .apply-title {
+
+  .apply-container h2 {
     text-align: left;
-    font-size: 3rem;
-    color: #260563;
-    margin-bottom: 20px;
-    margin-top: 150px;
+    font-size: 4rem;
+    color: #1b096c;
+    margin-bottom: 100px;
+    margin-top: 180px;
+    flex-basis: 100%; /* Forza il titolo a occupare tutta la larghezza */
+  }
+
+  .apply-container h3 {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    color: #1b096c;
+    flex-basis: 100%; /* Forza il titolo a occupare tutta la larghezza */
   }
   
-  .apply-content {
-    margin-top: 40px;
+  .apply-container p {
+    flex: 1 1 calc(50% - 20px); /* Ogni paragrafo occupa il 50% meno il gap */
+    margin-top: 10px; /* Ridotto per un layout più compatto */
     font-size: 1.1rem;
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 30px;
-  }
-  
-  .apply-content ul {
-    margin-left: 20px;
-    list-style-type: disc;
-  }
-  
-  .apply-content li {
+    color: #111010;
+    line-height: 1.8; /* Aumenta la distanza tra le linee */
     margin-bottom: 10px;
   }
   
@@ -36,12 +37,13 @@
   
   .apply-button {
     display: inline-block;
-    padding: 7px 10px;
-    font-size: 1.4rem;
+    padding: 8px 12px;
+    font-size: 1.8rem;
     color: #260563;
-    border: 1px solid #260563;
+    border: 2px solid #260563;
     text-decoration: none;
     border-radius: 3px;
+    margin-top: 40px;
   }
   
   .apply-button:hover {
