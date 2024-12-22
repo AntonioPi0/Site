@@ -20,7 +20,7 @@ const Team = () => {
     image: profilePic,
     name: 'Mirko',
     surname: 'Franzoni',
-    role: 'Presidente',
+    role: 'President',
     email: 'mirko.franzoni@studenti.polito.it',
     linkedin: 'https://www.linkedin.com/in/mirkofranzoni',
     large: true
@@ -37,7 +37,7 @@ const Team = () => {
       name:'Structures & Materials',
       subDepartments: [{
         name:"",
-        leaders: [{image: image_alfonso, name: 'Alfonso', surname: 'Del Zingaro', role: 'Responsabile', 
+        leaders: [{image: image_alfonso, name: 'Alfonso', surname: 'Del Zingaro', role: 'Manager', 
         email:'alfonso.delzingaro@studenti.polito.it', linkedin: 'https://www.linkedin.com/in/alfonso-del-zingaro-73536b325/'}],
         members: ['Mirko Franzoni'],
       }]
@@ -47,13 +47,13 @@ const Team = () => {
       subDepartments: [
         {
           name: "Aereodinamics",
-          leaders: [{ image: profilePic, name: "Niccolò", surname: "Fratamico", role: "Responsabile",
+          leaders: [{ image: profilePic, name: "Niccolò", surname: "Fratamico", role: "Manager",
              email: "niccolo.fratamico@studenti.polito.it", linkedin: "#" }],
           members: ["Lorenzo D'Alessandro", ],
         },
         {
           name: "Aereoacustics",
-          leaders: [{ image: profilePic, name: "Christian", surname: "Gambino", role: "Responsabile", 
+          leaders: [{ image: profilePic, name: "Christian", surname: "Gambino", role: "Manager", 
             email: "christian.gambino@studenti.polito.it", linkedin: "https://www.linkedin.com/in/christian-gambino/" }],
           members: ["Gabriel Cialdini"],
         }
@@ -64,9 +64,9 @@ const Team = () => {
       subDepartments: [
         {
           name: '',
-          leaders: [{image: profilePic, name: 'Matteo', surname: 'Russo', role:'Responsabile',
+          leaders: [{image: profilePic, name: 'Matteo', surname: 'Russo', role:'Manager',
             email:'s286538@studenti.polito.it', linkedin: 'https://www.linkedin.com/in/matteo-russo-5b3b13314/'},
-            {image: profilePic, name: 'Riccardo', surname: 'Monteleone', role:'Responsabile',
+            {image: profilePic, name: 'Riccardo', surname: 'Monteleone', role:'Manager',
               email:'riccardo.monteleone@studenti.polito.it', linkedin: 'https://www.linkedin.com/in/riccardo-monteleone-5a6b902a4/'}
           ],
           members: []
@@ -79,13 +79,13 @@ const Team = () => {
       subDepartments: [
         {
           name: "Flight Simulation",
-          leaders: [{ image: profilePic, name: "Primiano", surname: "D'Addatta", role: "Responsabile", 
+          leaders: [{ image: profilePic, name: "Primiano", surname: "D'Addatta", role: "Manager", 
             email: "primiano.daddetta@studenti.polito.it", linkedin: "https://www.linkedin.com/in/primiano-d-addetta-6a36b5239/" }],
           members: [],
         },
         {
           name: "Flight Mechanics",
-          leaders: [{ image: profilePic, name: "Francesca Pia", surname: "Vaccaro", role: "Responsabile", 
+          leaders: [{ image: profilePic, name: "Francesca Pia", surname: "Vaccaro", role: "Manager", 
             email: "francescapia.vaccaro@studenti.polito.it", linkedin: "https://www.linkedin.com/in/francesca-pia-vaccaro-028218210/" }],
           members: ["Francesca Bianco", "Tania Giannuzzi"],
         }
@@ -96,7 +96,7 @@ const Team = () => {
       subDepartments: [
         {
           name:"",
-          leaders: [{image: profilePic, name: 'Dario', surname: 'Vetrano', role:'Responsabile',
+          leaders: [{image: profilePic, name: 'Dario', surname: 'Vetrano', role:'Manager',
           email:'dario.vetrano@studenti.polito.it', linkedin: 'https://www.linkedin.com/in/dario-vetrano-827b09218/'}],
           members: ["Nima Nouri","Marcello Iacampo", "Marco Antonio Cannarsa","Erfan Haghighat Damavandi","Marco Rubens Ercole"],
         }
@@ -108,7 +108,7 @@ const Team = () => {
       subDepartments: [
         {
           name: "",
-          leaders: [{ image: profilePic, name: "Antonio Pio", surname: "Evangelista", role: "Responsabile", 
+          leaders: [{ image: profilePic, name: "Antonio Pio", surname: "Evangelista", role: "Manager", 
             email: "antoniopio.evangelista@studenti.polito.it", linkedin: "https://www.linkedin.com/in/antonio-pio-evangelista" }],
           members: ["Andrea Fala"],
         }
@@ -160,7 +160,7 @@ const Team = () => {
           />
         </div>
 
-      <h2>I nostri dipartimenti</h2>
+      <h2>Our Departments</h2>
 
       <div className="departments-container">
       {departments.map((department, index) => (
@@ -175,7 +175,7 @@ const Team = () => {
       ))}
     </div>
 
-    <h2>I nostri Advisors</h2>
+    <h2>Our Advisors</h2>
 
       <div className="advisors-container">
         {advisors.map((advisor) => (
