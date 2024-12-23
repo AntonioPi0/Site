@@ -5,6 +5,7 @@ import Footer from '../components/General/Footer';
 import dassault_page from '../images/Sponsors/Dassault_logo.png';
 import polito_page from '../images/Sponsors/Politecnico_logo.png';
 import '../css/main.css';
+import ScrollToTop from '../ScrollToTop';
 
 const Sponsors = () => {
 
@@ -21,6 +22,7 @@ const Sponsors = () => {
   ]
   return (
     <>
+      <ScrollToTop />
       <Navbar />
       <div className="sponsors">
 

@@ -1,60 +1,86 @@
-/* General Navbar Styles */
 .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.95);
-    border-bottom: 1px solid #d2d5dc;
-    z-index: 2000;
-  }
-  
-  .nav-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 1rem 1.5rem;
-  }
-  
-  .logo img {
-    height: 60px;
-  }
-  
-  .nav-links {
-    display: flex;
-    gap: 3rem;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: #16043a;
-    font-weight: bold;
-    font-size: 18px;
-    transition: color 0.3s ease;
-  }
-  
-  .nav-links a:hover,
-  .nav-links a.active {
-    color: #0c4680; /* Active link color */
-  }
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255);
+  border-bottom: 1px solid #d2d5dc;
+  z-index: 2000;
+}
 
-  .dropdown-title {
-    text-decoration: none;
-    color: #16043a;
-    font-weight: bold;
-    transition: color 0.3s ease;
-  }
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+}
 
-  .dropdown-title:hover {
-    color: #0073e6; /* Active link color */
-  }
+.logo img {
+  height: 60px;
+}
 
-  .dropdown-title a.activate{
-    color: #0073e6; /* Active link color */
-  }
-  
-/* Mobile Burger Styles */
+.nav-links {
+  display: flex;
+  gap: 3rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #16043a;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #0c4680;
+}
+
+/* Dropdown Menu */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-title {
+  color: #16043a;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.dropdown-title:hover {
+  color: #0073e6;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-left: 2px solid #270d84;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 8px 20px;
+}
+
+.dropdown-content a:hover {
+  background-color: #150a77;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Burger Menu Styles */
 .burger-container {
   display: none;
 }
@@ -76,70 +102,47 @@
   transition: all 0.3s linear;
 }
 
+.burger.open .burgerLine:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger.open .burgerLine:nth-child(2) {
+  opacity: 0;
+}
+
+.burger.open .burgerLine:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Mobile Styles */
 @media (max-width: 768px) {
   .burger-container {
     display: block;
-  }
-
-  .burger.open .burgerLine:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
-  }
-
-  .burger.open .burgerLine:nth-child(2) {
-    opacity: 0;
-  }
-
-  .burger.open .burgerLine:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -5px);
   }
 
   .nav-links {
     display: none;
   }
 
-  /* Mobile Menu */
-    .nav-links.active.mobile-menu {
-      display: flex;
-      flex-direction: column;
-      position: fixed;
-      top: 0;
-      right: 0;
-      height: 100vh;
-      width: 200px;
-      background-color: #0D2538;
-      padding-top: 3.5rem;
-      z-index: 10;
-      transition: transform 0.3s ease-in-out;
-      transform: translateX(0); /* Change this from translateX(150%) */
-    }
-  
-    /* Optional: Add a slide-in effect when closed */
-    .nav-links.active.mobile-menu:not(.open) {
-      transform: translateX(130%);
-    }
+  .nav-links.active.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 200px;
+    background-color: #0D2538;
+    padding-top: 3.5rem;
+    z-index: 10;
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
+  }
 
-  /* Link nel menu mobile */
-  .mobile-menu a, 
-  .mobile-menu button {
+  .mobile-menu a {
     color: white;
     padding: 15px;
     text-align: left;
-  }
-
-  .dropdown {
-    position: relative;
-  }
-
-  .dropdown-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    color: rgb(255, 255, 255);
-  }
-
-  .dropdown-arrow {
-    margin-left: 10px;
   }
 
   .dropdown-content {
@@ -148,92 +151,31 @@
 
   .dropdown-content a {
     padding-left: 30px;
-  }
-}
-
-
-  /* Light/Dark Mode Toggle Button */
-.theme-toggle {
-    margin-left: auto;
-    cursor: pointer;
-    padding: 0.5rem 1rem;
-    border: 2px solid var(--primary-color);
-    border-radius: 20px;
-    background: transparent;
-    color: inherit;
-    transition: all 0.3s ease;
-  }
-  
-  .theme-toggle:hover {
-    background-color: var(--primary-color);
     color: white;
   }
-  
-  /* Mobile Container for Hamburger and Theme Button */
-  .mobile-container {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+
+  #theme-toggle {
+    display: none;
   }
-  
-  /* Hide mobile theme toggle in desktop view */
+
   #theme-toggle-mobile {
-    display: none;
-  }
-  
-  @media (max-width: 768px) {
-    /* Mobile: Position Theme Button Next to Hamburger */
-    #theme-toggle {
-      display: none; /* Hide desktop theme toggle */
-    }
-  
-    #theme-toggle-mobile {
-      display: block; /* Show mobile theme toggle */
-    }
-  
-    .mobile-container {
-      gap: 0.5rem;
-    }
-  }
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0 2px 5px rgb(0,0,0,0.2);
-    /* Linea arancione a sinistra del dropdown */
-    border-left: 2px solid #270d84;
-}
-
-/* Link nel menu a tendina */
-.dropdown-content a {
-    color: black;
-    text-decoration: none;
     display: block;
-    padding: 8px 20px;
-    padding-left: 7px;
+  }
 }
 
-/* Mostra il menu a tendina all'hover */
-.dropdown:hover .dropdown-content {
-    display: block;
+/* Theme Toggle Button */
+.theme-toggle {
+  margin-left: auto;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 20px;
+  background: transparent;
+  color: inherit;
+  transition: all 0.3s ease;
 }
 
-/* Effetto hover sulle voci del menu a tendina */
-.dropdown-content a:hover {
-    background-color: #150a77;
-}
-
-/* Rimuove la sottolineatura dai link */
-.nav-item a {
-    text-decoration: none;
-    color: white;
+.theme-toggle:hover {
+  background-color: var(--primary-color);
+  color: white;
 }

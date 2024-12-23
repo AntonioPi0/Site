@@ -1,74 +1,68 @@
-"use client"
+"use client";
 
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../../css/main.css';
 import logo from '../../images/Zefiro_HLogo_NoBackground.png';
+import Burger from './Burger';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  
+
+  const handleMenuToggle = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <nav className="navbar">
       <div className="nav-content">
+        {/* Logo */}
         <NavLink to="/" className="logo">
           <img src={logo} alt="Zefiro Logo" height="50" />
         </NavLink>
-        
-        {/* Mobile Menu Trigger */}
+
+        {/* Burger Menu for Mobile */}
         <div className="mobile-container">
-          
-          
-          {/* Burger Component for Mobile */}
-          <div 
-            className="burger-container" 
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-          >
-            <div className={`burger ${isMenuOpen ? 'open' : ''}`}>
-              <div className="burgerLine"/>
-              <div className="burgerLine"/>
-              <div className="burgerLine"/>
-            </div>
-          </div>
+          <Burger open={isMenuOpen} onToggle={handleMenuToggle} />
         </div>
 
-        {/* Full Menu */}
+        {/* Navigation Links */}
         <div className={`nav-links ${isMenuOpen ? 'active mobile-menu' : ''}`}>
           <NavLink
             to="/"
             className={({ isActive }) => (isActive ? 'active' : '')}
+            onClick={() => setIsMenuOpen(false)} // Close menu on link click
           >
             HOME
           </NavLink>
           <NavLink
             to="/about"
             className={({ isActive }) => (isActive ? 'active' : '')}
+            onClick={() => setIsMenuOpen(false)} // Close menu on link click
           >
             ABOUT
           </NavLink>
-          
           <NavLink
-              to="/team"
-              className={({isActive }) => (isActive ? 'active' : '')}
+            to="/team"
+            className={({ isActive }) => (isActive ? 'active' : '')}
+            onClick={() => setIsMenuOpen(false)} // Close menu on link click
           >
             TEAM
           </NavLink>
-          
           <NavLink
-              to="/sponsors"
-              className={({isActive }) => (isActive ? 'active' : '')}
+            to="/sponsors"
+            className={({ isActive }) => (isActive ? 'active' : '')}
+            onClick={() => setIsMenuOpen(false)} // Close menu on link click
           >
             SPONSORS
           </NavLink>
-              
           <NavLink
             to="/apply"
             className={({ isActive }) => (isActive ? 'active' : '')}
-            >
+            onClick={() => setIsMenuOpen(false)} // Close menu on link click
+          >
             APPLY
-            </NavLink>
-          
-         
+          </NavLink>
         </div>
       </div>
     </nav>

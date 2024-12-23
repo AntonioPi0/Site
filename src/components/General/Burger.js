@@ -1,23 +1,14 @@
-import React, { useState } from 'react';
-import RightNav from './RightNav';
+import React from 'react';
 import '../../css/main.css';
 
-const Burger = () => {
-  const [open, setOpen] = useState(false)
-  
+const Burger = ({ open, onToggle }) => {
   return (
-    <>
-      <div 
-        className={`burger ${open ? 'open' : ''}`} 
-        onClick={() => setOpen(!open)}
-      >
-        <div className="burgerLine"/>
-        <div className="burgerLine"/>
-        <div className="burgerLine"/>
-      </div>
-      <RightNav open={open}/>
-    </>
-  )
-}
+    <div className={`burger ${open ? 'open' : ''}`} onClick={onToggle}>
+      <div />
+      <div />
+      <div />
+    </div>
+  );
+};
 
 export default Burger;

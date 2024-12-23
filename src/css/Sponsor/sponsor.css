@@ -1,3 +1,14 @@
+/* Settings for the page Sponsors */
+
+.sponsors-container {
+    max-width: 1400px;
+    margin: 0 auto; /* Centrare il contenitore */
+    padding: 0 20px; /* Aggiunge margini interni laterali */
+    margin-top: 50px;
+}
+
+/* Settings for the element Sponsor */
+
 .sponsor-container {
     margin: 10px auto; /* Spazio tra i box */
     position: relative;
@@ -5,6 +16,9 @@
     width: 480px; /* Dimensione più piccola rispetto a prima */
     height: 280px;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Per animare l'hover */
+    display: flex;
+    justify-content: center; /* Centra l'immagine orizzontalmente */
+    align-items: center; /* Centra l'immagine verticalmente */
 }
 
 .sponsor-grid {
@@ -18,11 +32,11 @@
 
 .sponsor-image {
     position: relative;
-    width: 100%; /* Adatta l'immagine al contenitore */
-    height: 100%; 
+    max-width: 100%; /* Adatta l'immagine al contenitore */
+    max-height: 100%; 
     overflow: hidden;
-    border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block; /* Rimuove eventuali comportamenti inline */
 }
 
 .sponsor-overlay {
@@ -35,17 +49,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.2); /* Colore scuro per l'overlay */
-    color: white;
+    background: rgba(230, 228, 228, 0.2); /* Colore scuro per l'overlay */
     opacity: 0;
-    padding: 20px;
+    border-radius: 7px;
+    padding: 40px;
     text-align: center;
     transition: opacity 0.3s ease;
 }
 
 .sponsor-container:hover .sponsor-image {
-    transform: scale(1.1); /* Ingrandisce leggermente l'immagine */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Ombra più evidente */
+    transform: scale(1.03); /* Ingrandisce leggermente l'immagine */
+    box-shadow: 0 8px 20px rgba(74, 18, 196, 0.2); /* Ombra più evidente */
+    opacity: 0.05;
 }
 
 .sponsor-container:hover .sponsor-overlay {
@@ -53,34 +68,36 @@
 }
 
 .sponsor-container:hover {
-    transform: scale(1.04); /* Ingrandisce il box */
+    transform: scale(1.06); /* Ingrandisce il box */
 }
+
+/* Description of the sponsor */
 
 .sponsor-description {
     text-align: left;
     font-size: 14px;
 }
 
+/* Button of the sponsor ("Visit their Website") */
+
 .sponsor-button {
     display: inline-block;
     padding: 7px 10px;
-    margin-top: 15px;
+    margin-top: 220px;
     font-size: 0.9rem;
     color: #260563;
     border: 1px solid #260563;
     text-decoration: none;
     border-radius: 3px;
+    position:absolute;
 }
 
 .sponsor-button:hover {
-    scale: 1.1;
+    scale: 1.02;
 }
 
 
 
-.sponsors-container {
-    max-width: 1200px;
-    margin: 0 auto; /* Centrare il contenitore */
-    padding: 0 20px; /* Aggiunge margini interni laterali */
-    margin-top: 50px;
-}
+
+
+

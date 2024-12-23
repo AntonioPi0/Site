@@ -5,6 +5,7 @@ import WhoWeAreSection from '../components/Home/WhoWeAreSection';
 import ContactSection from '../components/Home/ContactSection';
 import Footer from '../components/General/Footer';
 import Timeline from '../components/Home/Timeline';
+import ScrollToTop from '../ScrollToTop';
 import '../css/main.css';
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
 
   return (
     <>
+      <ScrollToTop/>
       <Navbar />
       <div className="page-container">
         <HeroSection />

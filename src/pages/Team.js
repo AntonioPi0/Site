@@ -8,6 +8,7 @@ import lerro_image from '../images/Advisors/immagine_Lerro.png';
 import Department from '../components/Team/Department';
 import image_alfonso from '../images/Departments/image_alfonso.jpg'
 import CustomPieChart from '../components/Team/CustomPieChart';
+import ScrollToTop from '../ScrollToTop';
 
 const Team = () => {
 
@@ -142,6 +143,7 @@ const Team = () => {
 
   return (
     <>
+    <ScrollToTop />
     <Navbar />
     <div className="team">
       

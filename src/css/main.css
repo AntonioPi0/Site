@@ -1,6 +1,7 @@
 @import './General/footer.css';
 @import './General/navbar.css';
 @import './General/burger.css';
+@import './General/rightnav.css';
 
 
 @import './Home/HomePage.css';
@@ -30,7 +31,4 @@
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    background-color: var(--background-light);
-    color: var(--text-light);
-    transition: background-color 0.3s, color 0.3s;
 }
