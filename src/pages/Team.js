@@ -124,20 +124,23 @@ const Team = () => {
         { name: "Aerospace", value: 80 },
         { name: "Computer", value: 10 },
         { name: "Electronic", value: 5 },
-        { name: "Energetic", value: 5}
+        { name: "Energetic", value: 5 }
       ],
+      title: "Industry Distribution",
     },
     {
       data: [
         { name: "Bachelor's", value: 5 },
         { name: "Master's", value: 95 },
       ],
+      title: "Education Level",
     },
     {
       data: [
         { name: "Domestic", value: 90 },
         { name: "International", value: 10},
       ],
+      title: "Student Demographics",
     },
   ];
 
@@ -199,6 +202,7 @@ const Team = () => {
           {piecharts.map((piechart) =>(
             <CustomPieChart
               data={piechart.data}
+              title={piechart.title}
               dataKey={piechart.dataKey}
               nameKey={piechart.nameKey}
             />

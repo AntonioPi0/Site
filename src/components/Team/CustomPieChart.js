@@ -6,7 +6,7 @@ const CustomPieChart = ({ data, title, width = 400, height = 400 }) => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const COLORS = [
-    '#FF6B6B', '#4ECDC4', '#FFCE67', '#A29BFE', '#74B9FF', '#00B894', 
+    '#0C4765', '#FFD966', '#CFDAE0', '#5198BB', '#74B9FF', '#00B894', 
     '#FAB1A0', '#E17055', '#6C5CE7', '#0984E3'
   ];
 
@@ -63,7 +63,6 @@ const CustomPieChart = ({ data, title, width = 400, height = 400 }) => {
     let fontSize = value > 10 ? 12 : 10;
     fontSize = value < 3 ? 0 : fontSize;
 
-    // Nascondi la percentuale per la fetta attiva
     if (activeIndex === index) {
       return (
         <text 
@@ -74,11 +73,10 @@ const CustomPieChart = ({ data, title, width = 400, height = 400 }) => {
           dominantBaseline="middle"
           style={{
             transition: 'all 0.2s ease',
-            fontSize: '14px', // Label grande per fetta attiva
+            fontSize: '14px',
             fontWeight: 'bold'
           }}
         >
-          {`${data[index].name}: ${data[index].value}%`}
         </text>
       );
     }
@@ -96,7 +94,7 @@ const CustomPieChart = ({ data, title, width = 400, height = 400 }) => {
             fontSize: `${fontSize}px`,
           }}
         >
-          {`${value}%`}
+          {}
         </text>
       );
     }
@@ -113,15 +111,18 @@ const CustomPieChart = ({ data, title, width = 400, height = 400 }) => {
   };
 
   return (
+    <div>
+    <div className='pie-title'>
+      {title}
+    </div>
     <div className="pie-container">
-      <h2 className="pie-title">{title}</h2>
       <div className="pie-content">
         <PieChart width={width} height={height}>
           <Pie
             data={data}
             cx="50%"
             cy="50%"
-            labelLine = {false}
+            labelLine={false}
             label={renderCustomLabel}
             outerRadius={100}
             fill="#8884d8"
@@ -149,6 +150,7 @@ const CustomPieChart = ({ data, title, width = 400, height = 400 }) => {
               />
         </PieChart>
       </div>
+    </div>
     </div>
   );
 };

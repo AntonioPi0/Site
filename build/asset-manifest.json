@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.5439a15b.css",
-    "main.js": "/static/js/main.b7f49bf4.js",
+    "main.css": "/static/css/main.a848900a.css",
+    "main.js": "/static/js/main.a63b195f.js",
     "static/js/453.6eec64e3.chunk.js": "/static/js/453.6eec64e3.chunk.js",
     "static/media/immagine_Lerro.png": "/static/media/immagine_Lerro.514cf17fc1b853f769a4.png",
     "static/media/immagine_Avallone.png": "/static/media/immagine_Avallone.916a4b5dea768f45b9f5.png",
     "static/media/Zefiro_Logo_NoBackground.png": "/static/media/Zefiro_Logo_NoBackground.09b13a80cf5a818fe2f8.png",
     "static/media/Zefiro_HLogo_NoBackground.png": "/static/media/Zefiro_HLogo_NoBackground.93965c5cb2aa3ce43104.png",
+    "static/media/logo_white.png": "/static/media/logo_white.d7af46a27e0d3c15ecb1.png",
     "static/media/Dassault_logo.png": "/static/media/Dassault_logo.1f75950e7742fe86158a.png",
     "static/media/Politecnico_logo.png": "/static/media/Politecnico_logo.629c508038f7f915fee0.png",
     "index.html": "/index.html",
-    "main.5439a15b.css.map": "/static/css/main.5439a15b.css.map",
-    "main.b7f49bf4.js.map": "/static/js/main.b7f49bf4.js.map",
+    "main.a848900a.css.map": "/static/css/main.a848900a.css.map",
+    "main.a63b195f.js.map": "/static/js/main.a63b195f.js.map",
     "453.6eec64e3.chunk.js.map": "/static/js/453.6eec64e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5439a15b.css",
-    "static/js/main.b7f49bf4.js"
+    "static/css/main.a848900a.css",
+    "static/js/main.a63b195f.js"
   ]
 }

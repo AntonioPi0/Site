@@ -28,13 +28,7 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <div className={`nav-links ${isMenuOpen ? 'active mobile-menu' : ''}`}>
-          <NavLink
-            to="/"
-            className={({ isActive }) => (isActive ? 'active' : '')}
-            onClick={() => setIsMenuOpen(false)} // Close menu on link click
-          >
-            HOME
-          </NavLink>
+          
           <NavLink
             to="/about"
             className={({ isActive }) => (isActive ? 'active' : '')}
@@ -56,13 +50,17 @@ const Navbar = () => {
           >
             SPONSORS
           </NavLink>
-          <NavLink
-            to="/apply"
-            className={({ isActive }) => (isActive ? 'active' : '')}
-            onClick={() => setIsMenuOpen(false)} // Close menu on link click
-          >
-            APPLY
-          </NavLink>
+          
+          <div className='apply-page'>
+            <NavLink
+              to="/apply"
+              className={({ isActive }) => (isActive ? 'active' : '')}
+              onClick={() => setIsMenuOpen(false)} // Close menu on link click
+            >
+              APPLY
+            </NavLink>
+          </div>
+          
         </div>
       </div>
     </nav>

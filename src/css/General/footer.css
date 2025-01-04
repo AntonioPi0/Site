@@ -1,25 +1,70 @@
-/* footer section */
-
+/* Footer section */
 footer {
-    padding-top: 1.5rem;
-    padding-bottom: 4rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    margin-top: 4rem;
-}
-
-.dark-mode footer {
-    background-color: #010e21;
-}
-
-.footer-line {
-    color:#0b0021;
-}
-
-.footer-bottom {
+    padding: 1.5rem;
+    margin-top: 15rem;
+    background-color: var(--blue-logo);
+  }
+  
+  .footer-container {
     max-width: 1280px;
-    margin: 2rem auto 0;
-    margin-top: 1rem;
-    padding-top: 2rem;
-    text-align: center;
-}
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* Space between logo and social section */
+    align-items: center; /* Center elements vertically */
+  }
+  
+  .logo_zefiro_footer {
+    flex: 1; /* Logo takes up left-aligned space */
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo_zefiro_footer img {
+    height: 50px; /* Logo size */
+  }
+  
+  .social-section {
+    flex: 1; /* Social section aligned to the right */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align content to the right */
+    justify-content: center; /* Center vertically */
+  }
+  
+  .social-icons_footer {
+    display: flex;
+    gap: 1.5rem; /* Space between icons */
+    margin-bottom: 1rem;
+  }
+  
+  .social-icons_footer svg {
+    width: 25px;
+    height: 25px;
+    filter: invert(100%); /* White icons */
+  }
+  
+  .footer-text {
+    font-size: 0.875rem;
+    color: white;
+    text-align: right; /* Align text to the right */
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .social-section {
+      align-items: center; /* Center the social section on small screens */
+      text-align: center;
+      margin-top: 1rem;
+    }
+  
+    .footer-text {
+      text-align: center; /* Center align the text on small screens */
+    }
+  }
+  

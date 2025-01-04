@@ -32,3 +32,10 @@
 body {
     font-family: 'Ubuntu', sans-serif;
 }
+
+:root {
+
+    --blue-logo: #0C4765;
+}
+
+
