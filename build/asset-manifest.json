@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa7f1534.css",
-    "main.js": "/static/js/main.e143495c.js",
+    "main.css": "/static/css/main.4dbfa7cf.css",
+    "main.js": "/static/js/main.c2c07e7b.js",
     "static/js/453.6eec64e3.chunk.js": "/static/js/453.6eec64e3.chunk.js",
     "static/media/immagine_Lerro.png": "/static/media/immagine_Lerro.514cf17fc1b853f769a4.png",
     "static/media/immagine_Avallone.png": "/static/media/immagine_Avallone.916a4b5dea768f45b9f5.png",
@@ -11,12 +11,12 @@
     "static/media/Dassault_logo.png": "/static/media/Dassault_logo.1f75950e7742fe86158a.png",
     "static/media/Politecnico_logo.png": "/static/media/Politecnico_logo.629c508038f7f915fee0.png",
     "index.html": "/index.html",
-    "main.aa7f1534.css.map": "/static/css/main.aa7f1534.css.map",
-    "main.e143495c.js.map": "/static/js/main.e143495c.js.map",
+    "main.4dbfa7cf.css.map": "/static/css/main.4dbfa7cf.css.map",
+    "main.c2c07e7b.js.map": "/static/js/main.c2c07e7b.js.map",
     "453.6eec64e3.chunk.js.map": "/static/js/453.6eec64e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa7f1534.css",
-    "static/js/main.e143495c.js"
+    "static/css/main.4dbfa7cf.css",
+    "static/js/main.c2c07e7b.js"
   ]
 }

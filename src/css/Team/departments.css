@@ -13,7 +13,6 @@
   
   .department-manager {
     justify-content: center;
-    padding: 10px;
   }
   
   .department-container ul {
@@ -27,6 +26,14 @@
     margin: 5px 0;
     color: #333;
     font-size: 1rem;
+  }
+
+  .subdepartment {
+    margin-top : 15px;
+  }
+
+  .subdepartment-content {
+    margin-top : 10px;
   }
 
 
