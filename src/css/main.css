@@ -1,7 +1,6 @@
 @import './General/footer.css';
 @import './General/navbar.css';
 @import './General/burger.css';
-@import './General/rightnav.css';
 
 
 @import './Home/HomePage.css';
@@ -17,6 +16,7 @@
 @import './Team/advisors.css';
 @import './Team/manager.css';
 @import './Team/piecharts.css';
+@import './Team/departments.css';
 
 @import './Sponsor/sponsors_page.css';
 @import './Sponsor/sponsor.css';

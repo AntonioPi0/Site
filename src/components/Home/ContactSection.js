@@ -7,7 +7,12 @@ const ContactSection = () => {
         <h2>Contact Us</h2>
         <div className="contact-content">
           <div className="contact-text">
-            <p>We are eager to get in touch with you! Whether you want to join us, become our partner, or simply know more about us, feel free to reach out through our e-mail: <a href="mailto:zefiro.polito@gmail.com">zefiro.polito@gmail.com</a>.</p>
+            <p>We are eager to get in touch with you! Whether you want to join us, become our partner, or simply know more about us, feel free to reach out.</p>
+            
+            <div className="contact-email">
+              <a href="mailto:zefiro.polito@gmail.com">zefiro.polito@gmail.com</a>
+            </div>
+
             <div className="contact-info">
               <div className="contact-item">
               </div>

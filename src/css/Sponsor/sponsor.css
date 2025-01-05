@@ -49,18 +49,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgba(230, 228, 228, 0.2); /* Colore scuro per l'overlay */
+    background: rgba(184, 186, 242, 0.2); /* Colore scuro per l'overlay */
     opacity: 0;
     border-radius: 7px;
     padding: 40px;
+    padding-bottom: 110px;
     text-align: center;
     transition: opacity 0.3s ease;
 }
 
 .sponsor-container:hover .sponsor-image {
     transform: scale(1.03); /* Ingrandisce leggermente l'immagine */
-    box-shadow: 0 8px 20px rgba(74, 18, 196, 0.2); /* Ombra più evidente */
-    opacity: 0.05;
+    opacity: 0.15;
 }
 
 .sponsor-container:hover .sponsor-overlay {
@@ -85,8 +85,8 @@
     padding: 7px 10px;
     margin-top: 220px;
     font-size: 0.9rem;
-    color: #260563;
-    border: 1px solid #260563;
+    color: var(--blue-logo);
+    border: 1px solid var(--blue-logo);
     text-decoration: none;
     border-radius: 3px;
     position:absolute;
@@ -95,6 +95,16 @@
 .sponsor-button:hover {
     scale: 1.02;
 }
+
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    
+    .sponsor-button {
+        margin-top: 300px;
+    }
+  }
+  
 
 
 

@@ -23,5 +23,5 @@
 }
 
 .social-icon svg {
-    fill: #260563;
+    fill: var(--blue-logo);
 }

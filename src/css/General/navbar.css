@@ -33,7 +33,7 @@
   transition: color 0.3s ease;
 }
 
-.apply-page a {
+.nav-links .apply-page a {
   text-decoration: none; /* Rimuove la sottolineatura */
   color: white; /* Colore del testo bianco */
   background-color: var(--blue-logo); /* Sfondo uguale alla variabile */
@@ -62,7 +62,7 @@
 .burgerLine {
   width: 2rem;
   height: 0.25rem;
-  background-color: #333;
+  background-color: var(--blue-logo);
   border-radius: 10px;
   transition: all 0.3s linear;
 }
@@ -105,10 +105,22 @@
   }
 
   .mobile-menu a {
-    color: black;
+    color: var(--blue-logo);
     padding: 15px;
+    padding-left: 30px;
     text-align: left;
   }
-}
 
+
+  .nav-links.nav-links.active.mobile-menu .apply-page a {
+    text-decoration: none; /* Remove underline */
+    color: var(--blue-logo); /* White text */
+    background-color: transparent; /* Remove background */
+    border: none; /* Remove border */
+    padding: 0.6rem 1.7rem; /* Add padding for better visibility */
+    border-radius: 8px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+  }
+
+}
 

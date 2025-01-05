@@ -7,7 +7,7 @@ const Department = ({ name,subDepartments }) => {
   return (
     <div className="department-container">
       {/* Nome e Responsabile Generale */}
-      <h3>{name}</h3>
+      <h2>{name}</h2>
 
       {/* Sottodipartimenti */}
       {subDepartments && subDepartments.length > 0 && (

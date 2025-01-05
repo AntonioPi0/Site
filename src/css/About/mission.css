@@ -2,25 +2,42 @@
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 40px;
-  display: flex; /* Usa Flexbox per creare layout a due colonne */
-  flex-wrap: wrap; /* Consenti la disposizione su più righe per schermi piccoli */
-  gap: 40px; /* Spazio tra i due blocchi di testo */
+  display: flex; /* Use Flexbox for the layout */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  gap: 40px; /* Space between blocks */
 }
 
 .mission h2 {
   text-align: left;
   font-size: 4rem;
-  color: #1b096c;
+  color: var(--blue-logo);
   margin-bottom: 20px;
   margin-top: 180px;
-  flex-basis: 100%; /* Forza il titolo a occupare tutta la larghezza */
+  flex-basis: 100%; /* Ensure the title occupies the full width */
 }
 
 .mission p {
-  flex: 1 1 calc(50% - 20px); /* Ogni paragrafo occupa il 50% meno il gap */
-  margin-top: 20px; /* Ridotto per un layout più compatto */
+  flex: 1 1 calc(50% - 20px); /* Default: Each paragraph takes 50% width minus the gap */
+  margin-top: 20px; 
   font-size: 1.1rem;
-  color: #111010;
-  line-height: 1.8; /* Aumenta la distanza tra le linee */
+  color: var(--blue-logo);
+  line-height: 1.8; /* Increase line spacing for readability */
   margin-bottom: 10px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .mission p {
+    flex: 1 1 100%; /* Each paragraph takes 100% width */
+    text-align: left; /* Ensure text alignment is consistent */
+  }
+
+  .mission h2 {
+    margin-top: 180px; /* Adjust spacing for mobile */
+    font-size: 4rem; /* Smaller font size for the title */
+  }
+
+  .mission {
+    gap: 20px; /* Reduce gap for a more compact layout on mobile */
+  }
 }

@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  color: black;
+  color: rgba(0, 0, 0, 0.626);
   text-align: center;
 }
 
@@ -11,7 +11,7 @@
   font-size: 4rem;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #362298;
+  color: var(--blue-logo);
 }
 
 .animated-title h2 {
@@ -20,7 +20,7 @@
 }
 
 .highlight {
-  color: #362298;
+  color: var(--blue-logo);
   font-weight: bold;
 }
 

@@ -15,7 +15,7 @@
     font-weight: bold;
     margin-bottom: 170px; /* Distacco maggiore sotto il titolo */
     margin-top: -100px; /* Aumenta lo spazio sopra il titolo */
-    color: #260563;
+    color: var(--blue-logo);
     background-clip: text;
     text-align: left; /* Allineato a sinistra */
 }
@@ -28,7 +28,7 @@
     bottom: 0;
     height: 900px;
     width: 3px;
-    background-color: #260563;
+    background-color: var(--blue-logo);
 }
 
 .timeline-line::before {
@@ -38,7 +38,7 @@
     left: -10px; /* Centra il pallino sulla linea */
     width: 25px; /* Dimensione del pallino grande */
     height: 25px; /* Dimensione del pallino grande */
-    background-color: #260563;
+    background-color:var(--blue-logo);
     border-radius: 50%;
     z-index: 3;
 }
@@ -52,16 +52,16 @@
     height: 30px; /* Altezza complessiva dei trattini aumentata per includere un altro trattino */
     background: repeating-linear-gradient(
         to bottom,
-        #260563,
-        #260563 5px, /* Altezza del singolo trattino */
+        var(--blue-logo),
+        var(--blue-logo) 5px, /* Altezza del singolo trattino */
         transparent 5px,
         transparent 10px,
-        #260563 10px,
-        #260563 15px,
+        var(--blue-logo) 10px,
+        var(--blue-logo) 15px,
         transparent 15px,
         transparent 20px,
-        #260563 20px,
-        #260563 25px,
+        var(--blue-logo) 20px,
+        var(--blue-logo) 25px,
         transparent 25px,
         transparent 30px
     );
@@ -90,7 +90,7 @@
     top: 4px;
     width: 14px;
     height: 14px;
-    background-color: #260563;
+    background-color: var(--blue-logo);
     border-radius: 50%;
     z-index: 2;
   }
@@ -104,7 +104,7 @@
     width: 49px; /* Lunghezza della linea */
     height: 1.5px; /* Spessore della linea */
     background-color: transparent; /* Linea trasparente di base */
-    border-top: 1.5px dashed #260563; /* Linea tratteggiata */
+    border-top: 1.5px dashed var(--blue-logo); /* Linea tratteggiata */
 }
 
 .timeline-content {
@@ -115,7 +115,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-top: 10px;
   margin-left: 40px;
-  border: 1px solid #1d3557; /* Contorno blu scuro */
+  border: 1px solid var(--blue-logo); /* Contorno blu scuro */
   width: auto; /* Consenti una larghezza dinamica */
   max-width: 80%; /* Impedisci che diventi troppo largo */
   height: auto; /* Consenti un'altezza dinamica */
@@ -130,7 +130,7 @@
 }
   
   .timeline-title {
-    color: #260563;
+    color: var(--blue-logo);
     font-size: 1.25rem;
     font-weight: 600;
     margin: 0 0 12px 0;

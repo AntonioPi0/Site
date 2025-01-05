@@ -1,0 +1,40 @@
+
+  .department-item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  
+  .department-container h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  
+  .department-manager {
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .department-container ul {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+    border-radius: 10px;
+  }
+  
+  .department-container ul li {
+    margin: 5px 0;
+    color: #333;
+    font-size: 1rem;
+  }
+
+
+  @media (max-width: 768px) {
+
+    .departments-container {
+      grid-template-columns: 1fr; /* One column for mobile devices */
+      gap: 40px; /* Adjust spacing */
+    }
+
+  }

@@ -1,3 +1,4 @@
+
 .contact-container {
     margin: 0 auto;
 }
@@ -5,7 +6,7 @@
 .contact-container h2 {
     text-align: left;
     font-size: 2rem;
-    color: #260563;
+    color: var(--blue-logo);
     margin-top: 120px;
 }
 
@@ -42,8 +43,26 @@
 }
 
 .contact-text a {
-    color: #212171;
+    color: var(--blue-logo);
     text-decoration: none
+}
+
+.contact-email {
+    margin-top: 30px; /* Space above the button */
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+  }
+
+.contact-email a {
+  padding: 12px 24px; /* More padding for a larger button */
+  background-color: var(--blue-logo);
+  border: 1px solid var(--blue-logo);
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-block; /* Ensures proper button-like appearance */
 }
 
 .contact-text a:hover {

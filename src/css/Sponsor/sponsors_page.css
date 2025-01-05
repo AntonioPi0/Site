@@ -9,7 +9,7 @@
 .sponsors h2 {
     text-align: left;
     font-size: 4rem;
-    color: #1b096c;
+    color: var(--blue-logo);
     margin-bottom: 100px;
     margin-top: 180px;
   }
@@ -18,7 +18,7 @@
 .sponsors p {
     margin-top: 30px;
     font-size: 1.1rem;
-    color: #555;
+    color: var(--blue-logo);
     line-height: 1.6;
     margin-bottom: 10px;
   }
@@ -36,7 +36,7 @@
   .sponsors h3 {
     text-align: left;
     font-size: 2.4rem;
-    color: #260563;
+    color: var(--blue-logo);
     margin-top:70px;
   }
 
@@ -44,7 +44,7 @@
     text-align: left;
     font-size: 1.5rem;
     margin-top: 30px;
-    color: #1b096c;
+    color: var(--blue-logo);
     flex-basis: 100%; /* Forza il titolo a occupare tutta la larghezza */
   }
 

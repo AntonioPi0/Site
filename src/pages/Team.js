@@ -126,21 +126,24 @@ const Team = () => {
         { name: "Electronic", value: 5 },
         { name: "Energetic", value: 5 }
       ],
-      title: "Industry Distribution",
+      title: "Members by program",
+      colors : ['#0C4765', '#FFD966', '#CFDAE0', '#5198BB']
     },
     {
       data: [
         { name: "Bachelor's", value: 5 },
         { name: "Master's", value: 95 },
       ],
-      title: "Education Level",
+      title: "Members by education level",
+      colors : ['#5198BB','#0C4765', '#FFD966', '#CFDAE0']
     },
     {
       data: [
         { name: "Domestic", value: 90 },
         { name: "International", value: 10},
       ],
-      title: "Student Demographics",
+      title: "International students rate",
+      colors : ['#0C4765','#5198BB', '#FFD966', '#CFDAE0']
     },
   ];
 
@@ -198,16 +201,17 @@ const Team = () => {
 
     <h2>Zefiro statistics</h2>
 
-        <div className='piecharts-container'>
-          {piecharts.map((piechart) =>(
-            <CustomPieChart
-              data={piechart.data}
-              title={piechart.title}
-              dataKey={piechart.dataKey}
-              nameKey={piechart.nameKey}
-            />
-          ))}
-        </div>
+      <div className='piecharts-container'>
+        {piecharts.map((piechart) =>(
+          <CustomPieChart
+            data={piechart.data}
+            title={piechart.title}
+            colors={piechart.colors}
+            dataKey={piechart.dataKey}
+            nameKey={piechart.nameKey}
+          />
+        ))}
+      </div>
 
         
 

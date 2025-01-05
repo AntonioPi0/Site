@@ -38,7 +38,7 @@
 .manager-info h3 {
   margin: 0;
   font-size: 1rem;
-  color: #333;
+  color: var(--blue-logo);
   font-weight: bold;
 }
 
@@ -74,7 +74,7 @@
 
 /* LinkedIn Icon */
 .linkedin-icon svg {
-  fill: #18033b;
+  fill: var(--blue-logo);
   stroke: none;
 }
 

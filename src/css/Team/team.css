@@ -9,7 +9,7 @@
 .team h1 {
   text-align: left;
   font-size: 4rem;
-  color: #1b096c;
+  color: var(--blue-logo);
   margin-top: 180px;
   flex-basis: 100%; /* Forza il titolo a occupare tutta la larghezza */
 }
@@ -17,12 +17,11 @@
 .team h2 {
   text-align: left;
   font-size: 2rem;
-  color: #1b096c;
+  color: var(--blue-logo);
   margin-bottom: 50px;
   margin-top: 90px;
   flex-basis: 100%; /* Forza il titolo a occupare tutta la larghezza */
 }
-
 
 .president {
   display: inline-block;
@@ -34,7 +33,6 @@
   margin-top: 50px;
 }
 
-
 .departments-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Due colonne */
@@ -42,43 +40,4 @@
   margin: 20px auto;
   padding: 28px;
   max-width: 1200px; /* Imposta una larghezza massima per allineamento */
-}
-
-.department-item {
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
-}
-
-
-.department-container h3 {
-  margin: 0;
-  font-size: 1.5rem;
-  text-align: left;
-}
-
-.department-manager {
-  justify-content: center;
-  padding: 10px;
-}
-
-.department-container ul {
-  list-style: none;
-  padding: 5px;
-  margin: 0;
-  border-radius: 10px;
-}
-
-.department-container ul li {
-  margin: 5px 0;
-  color: #333;
-  font-size: 1rem;
-}
-
-
-.advisors-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
 }

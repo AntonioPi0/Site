@@ -70,8 +70,16 @@
 }
   
 
-.departments-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Due colonne */
-    gap: 30px; /* Spaziatura tra i blocchi */
+  /* Media query for mobile devices */
+  @media (max-width: 768px) { 
+    .piecharts-container {
+      grid-template-columns: 1fr; /* One column for mobile devices */
+      gap: 30px; /* Adjust the spacing for smaller screens */
+      padding-left: 40px;
+    }
+
+    .legend-container {
+      margin-left: -20px;
+    }
+
   }

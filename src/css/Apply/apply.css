@@ -8,7 +8,7 @@
   .apply-container h2 {
     text-align: left;
     font-size: 4rem;
-    color: #1b096c;
+    color: var(--blue-logo);
     margin-bottom: 100px;
     margin-top: 180px;
     flex-basis: 100%; /* Forza il titolo a occupare tutta la larghezza */
@@ -18,7 +18,7 @@
     text-align: left;
     font-size: 1.5rem;
     margin-top: 30px;
-    color: #1b096c;
+    color: var(--blue-logo);
     flex-basis: 100%; /* Forza il titolo a occupare tutta la larghezza */
   }
   
@@ -26,7 +26,7 @@
     flex: 1 1 calc(50% - 20px); /* Ogni paragrafo occupa il 50% meno il gap */
     margin-top: 10px; /* Ridotto per un layout più compatto */
     font-size: 1.1rem;
-    color: #111010;
+    color: var(--blue-logo);
     line-height: 1.8; /* Aumenta la distanza tra le linee */
     margin-bottom: 10px;
   }
@@ -39,8 +39,8 @@
     display: inline-block;
     padding: 8px 12px;
     font-size: 1.8rem;
-    color: #260563;
-    border: 2px solid #260563;
+    color: var(--blue-logo);
+    border: 2px solid var(--blue-logo);
     text-decoration: none;
     border-radius: 3px;
     margin-top: 40px;
