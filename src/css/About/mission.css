@@ -26,7 +26,7 @@
 }
 
 /* Media query for mobile devices */
-@media (max-width: 768px) {
+@media (max-width: 1024px)  {
   .mission p {
     flex: 1 1 100%; /* Each paragraph takes 100% width */
     text-align: left; /* Ensure text alignment is consistent */

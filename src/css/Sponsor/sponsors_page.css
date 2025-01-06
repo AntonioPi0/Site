@@ -63,3 +63,20 @@
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 1024px) {
+  .sponsors-container {
+    grid-template-columns: 1fr; /* Dispone gli elementi in una singola colonna */
+    gap: 10px; /* Diminuisce lo spazio tra gli sponsor */
+    padding: 10px; /* Riduce il padding per adattarsi a schermi piccoli */
+  }
+
+  .sponsor-item {
+    margin: 0 auto; /* Centra gli sponsor nella colonna */
+  }
+
+  .sponsors p {
+    font-size: 1rem; /* Adatta la dimensione del testo */
+    margin-top: 15px; /* Riduce il margine per ottimizzare lo spazio */
+  }
+}

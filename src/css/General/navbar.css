@@ -80,13 +80,14 @@
 }
 
 /* Mobile Styles */
-@media (max-width: 768px) {
+/* Media Query per schermi fino a 1024px */
+@media (max-width: 1024px) {
   .burger-container {
     display: block;
   }
 
   .nav-links {
-    display: none;
+    display: none; /* Nascondi i link nella barra superiore */
   }
 
   .nav-links.active.mobile-menu {
@@ -96,7 +97,7 @@
     top: 0;
     right: 0;
     height: 100vh;
-    width: 200px;
+    width: 250px; /* Larghezza del menu mobile */
     background-color: #f3f0f0;
     padding-top: 6.5rem;
     z-index: 10;
@@ -111,15 +112,14 @@
     text-align: left;
   }
 
-
+  /* Stili per il pulsante "Apply" nella modalità mobile */
   .nav-links.nav-links.active.mobile-menu .apply-page a {
-    text-decoration: none; /* Remove underline */
-    color: var(--blue-logo); /* White text */
-    background-color: transparent; /* Remove background */
-    border: none; /* Remove border */
-    border-radius: 8px; /* Rounded corners */
-    font-weight: bold; /* Bold text */
+    text-decoration: none;
+    color: var(--blue-logo);
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
   }
-
 }
 
