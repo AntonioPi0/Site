@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.927a1033.css",
+    "main.css": "/static/css/main.e31bf1fb.css",
     "main.js": "/static/js/main.379626fb.js",
     "static/js/453.6eec64e3.chunk.js": "/static/js/453.6eec64e3.chunk.js",
     "static/media/immagine_Lerro.png": "/static/media/immagine_Lerro.514cf17fc1b853f769a4.png",
@@ -11,12 +11,12 @@
     "static/media/Dassault_logo.png": "/static/media/Dassault_logo.1f75950e7742fe86158a.png",
     "static/media/Politecnico_logo.png": "/static/media/Politecnico_logo.629c508038f7f915fee0.png",
     "index.html": "/index.html",
-    "main.927a1033.css.map": "/static/css/main.927a1033.css.map",
+    "main.e31bf1fb.css.map": "/static/css/main.e31bf1fb.css.map",
     "main.379626fb.js.map": "/static/js/main.379626fb.js.map",
     "453.6eec64e3.chunk.js.map": "/static/js/453.6eec64e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.927a1033.css",
+    "static/css/main.e31bf1fb.css",
     "static/js/main.379626fb.js"
   ]
 }

@@ -64,7 +64,8 @@
     justify-content: center;
 }
 
-@media (max-width: 1024px) {
+
+@media (min-width: 750px) and (max-width: 1024px) {
   .sponsors-container {
     grid-template-columns: 1fr; /* Dispone gli elementi in una singola colonna */
     gap: 10px; /* Diminuisce lo spazio tra gli sponsor */
@@ -74,6 +75,14 @@
   .sponsor-item {
     margin: 0 auto; /* Centra gli sponsor nella colonna */
   }
+
+  .sponsors p {
+    font-size: 1rem; /* Adatta la dimensione del testo */
+    margin-top: 15px; /* Riduce il margine per ottimizzare lo spazio */
+  }
+}
+
+@media (max-width: 750px) {
 
   .sponsors p {
     font-size: 1rem; /* Adatta la dimensione del testo */
