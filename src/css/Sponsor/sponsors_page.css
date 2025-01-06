@@ -14,7 +14,6 @@
     margin-top: 180px;
   }
 
-  
 .sponsors p {
     margin-top: 30px;
     font-size: 1.1rem;
@@ -31,6 +30,7 @@
   
   .sponsors li {
     margin-bottom: 10px;
+    color: var(--blue-logo);
   }
 
   .sponsors h3 {
@@ -47,8 +47,6 @@
     color: var(--blue-logo);
     flex-basis: 100%; /* Forza il titolo a occupare tutta la larghezza */
   }
-
-
 
 /* Referred to logos*/
 

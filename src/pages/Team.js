@@ -121,26 +121,26 @@ const Team = () => {
   const piecharts = [
     {
       data: [
-        { name: "Aerospace", value: 80 },
-        { name: "Computer", value: 10 },
-        { name: "Electronic", value: 5 },
-        { name: "Energetic", value: 5 }
+        { name: "Aerospace", value: 76.2 },
+        { name: "Computer", value: 9.5 },
+        { name: "Electronic", value: 9.5 },
+        { name: "Energetic", value: 4.8 }
       ],
       title: "Members by program",
       colors : ['#0C4765', '#FFD966', '#CFDAE0', '#5198BB']
     },
     {
       data: [
-        { name: "Bachelor's", value: 5 },
-        { name: "Master's", value: 95 },
+        { name: "Bachelor's", value: 4.8 },
+        { name: "Master's", value: 95.2 },
       ],
       title: "Members by education level",
       colors : ['#5198BB','#0C4765', '#FFD966', '#CFDAE0']
     },
     {
       data: [
-        { name: "Domestic", value: 90 },
-        { name: "International", value: 10},
+        { name: "Domestic", value: 90.5 },
+        { name: "International", value: 9.5},
       ],
       title: "International students rate",
       colors : ['#0C4765','#5198BB', '#FFD966', '#CFDAE0']

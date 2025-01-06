@@ -60,42 +60,19 @@ const CustomPieChart = ({ data, title, colors = ['#FF0000', '#00FF00', '#0000FF'
     let fontSize = value > 10 ? 12 : 10;
     fontSize = value < 3 ? 0 : fontSize;
 
-    if (activeIndex === index) {
-      return (
-        <text
-          x={x}
-          y={y}
-          fill="white"
-          textAnchor="middle"
-          dominantBaseline="middle"
-          style={{
-            transition: 'all 0.2s ease',
-            fontSize: '14px',
-            fontWeight: 'bold',
-          }}
-        >
-
-        </text>
-      );
-    }
-
-    if (fontSize > 0) {
-      return (
-        <text
-          x={x}
-          y={y}
-          fill="white"
-          textAnchor="middle"
-          dominantBaseline="middle"
-          style={{
-            fontSize: `${fontSize}px`,
-          }}
-        >
-        </text>
-      );
-    }
-
-    return null;
+    return (
+      <text
+        x={x}
+        y={y}
+        fill="white"
+        textAnchor="middle"
+        dominantBaseline="middle"
+        style={{
+          fontSize: `${fontSize}px`,
+        }}
+      >
+      </text>
+    );
   };
 
   const onPieEnter = (_, index) => {

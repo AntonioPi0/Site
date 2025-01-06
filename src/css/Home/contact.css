@@ -12,6 +12,8 @@
 
 .contact-text {
     font-size: 1.2rem;
+    color: var(--blue-logo);
+    margin-top: 15px;
 }
 
 .contact-info {
@@ -43,7 +45,6 @@
 }
 
 .contact-text a {
-    color: var(--blue-logo);
     text-decoration: none
 }
 

@@ -35,7 +35,7 @@ const Department = ({ name,subDepartments }) => {
 
                   {subDepartment.members && subDepartment.members.length > 0 && (
                     <div>
-                      <h5>Membri</h5>
+                      <h5>Members</h5>
                       <ul>
                         {subDepartment.members.map((member, idx) => (
                           <li key={idx}>{member}</li>

@@ -117,7 +117,6 @@
     color: var(--blue-logo); /* White text */
     background-color: transparent; /* Remove background */
     border: none; /* Remove border */
-    padding: 0.6rem 1.7rem; /* Add padding for better visibility */
     border-radius: 8px; /* Rounded corners */
     font-weight: bold; /* Bold text */
   }

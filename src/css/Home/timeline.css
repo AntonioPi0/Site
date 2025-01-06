@@ -137,8 +137,21 @@
   }
   
   .timeline-description {
-    color: #333;
+    color: var(--blue-logo);
     margin: 0;
     line-height: 1.5;
+  }
+
+  @media (max-width: 768px) {
+    
+    .timeline-line {
+      position: absolute;
+      left: 26px; /* Posiziona la linea a sinistra */
+      top: 7px;
+      bottom: 0;
+      height: 1000px;
+      width: 3px;
+      background-color: var(--blue-logo);
+  }
   }
   
