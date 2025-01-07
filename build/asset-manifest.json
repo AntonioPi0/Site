@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5b9bfe2f.css",
-    "main.js": "/static/js/main.379626fb.js",
+    "main.js": "/static/js/main.d2a057a4.js",
     "static/js/453.6eec64e3.chunk.js": "/static/js/453.6eec64e3.chunk.js",
     "static/media/immagine_Lerro.png": "/static/media/immagine_Lerro.514cf17fc1b853f769a4.png",
     "static/media/immagine_Avallone.png": "/static/media/immagine_Avallone.916a4b5dea768f45b9f5.png",
@@ -12,11 +12,11 @@
     "static/media/Politecnico_logo.png": "/static/media/Politecnico_logo.629c508038f7f915fee0.png",
     "index.html": "/index.html",
     "main.5b9bfe2f.css.map": "/static/css/main.5b9bfe2f.css.map",
-    "main.379626fb.js.map": "/static/js/main.379626fb.js.map",
+    "main.d2a057a4.js.map": "/static/js/main.d2a057a4.js.map",
     "453.6eec64e3.chunk.js.map": "/static/js/453.6eec64e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b9bfe2f.css",
-    "static/js/main.379626fb.js"
+    "static/js/main.d2a057a4.js"
   ]
 }

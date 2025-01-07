@@ -44,10 +44,10 @@ const Team = () => {
       }]
     },
     {
-      name: 'Aereodinamics & Aereoacustics',
+      name: 'Aereodynamics & Aereoacustics',
       subDepartments: [
         {
-          name: "Aereodinamics",
+          name: "Aereodynamics",
           leaders: [{ image: profilePic, name: "Niccolò", surname: "Fratamico", role: "Manager",
              email: "niccolo.fratamico@studenti.polito.it", linkedin: "#" }],
           members: [],
