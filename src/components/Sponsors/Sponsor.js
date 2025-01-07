@@ -1,10 +1,11 @@
 import React from'react';
 import '../../css/main.css';
-const Sponsor = ({image, description, link}) => {
+
+const Sponsor = ({image, description, website}) => {
     return (
       <div className='sponsor-container'>
         <div className='sponsor-image'>
-          <img src={image} alt={`${link}`}/>
+          <img src={image} alt={`${website}`}/>
         </div>
 
         <div className='sponsor-overlay'>
@@ -12,7 +13,7 @@ const Sponsor = ({image, description, link}) => {
             {description}
           </p>
           <a 
-            href={link} 
+            href={website} 
             target="_blank" 
             rel="noopener noreferrer"
             className="sponsor-button"
