@@ -93,7 +93,7 @@ const Team = () => {
       ]
     }, 
     {
-      name: 'Control & Systems',
+      name: 'Avionics & Systems Integration',
       subDepartments: [
         {
           name:"",
