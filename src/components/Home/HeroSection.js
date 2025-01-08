@@ -1,13 +1,32 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import '../../css/main.css';
 import 'animate.css';
-import droneVideo from '../../images/Video/drone.mp4'; // Assicurati di importare il video
+import droneVideo from '../../images/Video/drone.mp4';
 
 const HeroSection = () => {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (video) {
+      video.play().catch((error) => {
+        console.log('Autoplay bloccato:', error);
+      });
+    }
+  }, []);
+
   return (
     <section className="hero">
       {/* Video Background */}
-      <video className="hero-video" autoPlay loop muted>
+      <video
+        ref={videoRef}
+        className="hero-video"
+        autoPlay
+        loop
+        muted
+        playsInline
+        preload="auto"
+      >
         <source src={droneVideo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
