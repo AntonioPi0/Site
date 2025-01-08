@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import Navbar from '../components/General/Navbar';
 import Sponsor from '../components/Sponsors/Sponsor';
 import Footer from '../components/General/Footer';
-import dassault_page from '../images/Sponsors/Dassault_logo.png';
+/* import dassault_page from '../images/Sponsors/Dassault_logo.png';*/
 import polito_page from '../images/Sponsors/Politecnico_logo.png';
 import '../css/main.css';
 import ScrollToTop from '../ScrollToTop';
@@ -16,10 +16,14 @@ const Sponsors = () => {
   const sponsors = [
     {image: polito_page, description:"Politecnico di Torino, established in 1859, is a leading technical university in Italy,excelling in engineering, architecture, and innovation. Renowned for its research and global partnerships, it prepares students for future technological challenges.",
       website:"https://www.polito.it/" },
-    {image: dassault_page, description:"Dassault Systèmes is a global leader in 3D design, engineering, and simulation software, empowering innovation across industries. Its solutions enable sustainable product development and transformative digital experiences.",
-       website:"https://www.3ds.com/"},
+    
     
   ]
+
+  /*
+  {image: dassault_page, description:"Dassault Systèmes is a global leader in 3D design, engineering, and simulation software, empowering innovation across industries. Its solutions enable sustainable product development and transformative digital experiences.",
+       website:"https://www.3ds.com/"},
+  */
   return (
     <>
       <ScrollToTop />
