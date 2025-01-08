@@ -40,7 +40,7 @@ const Team = () => {
         name:"",
         leaders: [{image: image_alfonso, name: 'Alfonso', surname: 'Del Zingaro', role: 'Manager', 
         email:'alfonso.delzingaro@studenti.polito.it', linkedin: 'https://www.linkedin.com/in/alfonso-del-zingaro-73536b325/'}],
-        members: ['Mirko Franzoni'],
+        members: [],
       }]
     },
     {
@@ -111,7 +111,7 @@ const Team = () => {
           name: "",
           leaders: [{ image: profilePic, name: "Antonio Pio", surname: "Evangelista", role: "Manager", 
             email: "antoniopio.evangelista@studenti.polito.it", linkedin: "https://www.linkedin.com/in/antonio-pio-evangelista" }],
-          members: ["Andrea Fala"],
+          members: ["Andrea Falaschi"],
         }
       ]
         
