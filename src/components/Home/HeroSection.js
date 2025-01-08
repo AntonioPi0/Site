@@ -1,10 +1,18 @@
 import React from 'react';
 import '../../css/main.css';
 import 'animate.css';
+import droneVideo from '../../images/Video/drone.mp4'; // Assicurati di importare il video
 
 const HeroSection = () => {
   return (
     <section className="hero">
+      {/* Video Background */}
+      <video className="hero-video" autoPlay loop muted>
+        <source src={droneVideo} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      {/* Text Content */}
       <div className="animated-title">
         <h1 className="animate__animated animate__fadeInDown">ZEFIRO</h1>
         <h2 className="animate__animated animate__fadeInUp animate__slower">

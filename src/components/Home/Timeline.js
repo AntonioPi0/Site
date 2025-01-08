@@ -29,18 +29,20 @@ const Timeline = () => {
   return (
     <section className="timeline-section">
       <div className="timeline-container">
-        <h1>Our timeline</h1>
-        <div className="timeline-line"></div>
-        {timelineData.map((item, index) => (
-          <div className="timeline-item" key={index}>
-            <div className="timeline-point"></div>
-            <div className="timeline_year">{item.date}</div>
-            <div className="timeline-content">
-              <h3 className="timeline-title">{item.title}</h3>
-              <p className="timeline-description">{item.description}</p>
+        <div className = "timeline-subcontainer">
+          <h1>Our timeline</h1>
+          <div className="timeline-line"></div>
+          {timelineData.map((item, index) => (
+            <div className="timeline-item" key={index}>
+              <div className="timeline-point"></div>
+              <div className="timeline_year">{item.date}</div>
+              <div className="timeline-content">
+                <h3 className="timeline-title">{item.title}</h3>
+                <p className="timeline-description">{item.description}</p>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );

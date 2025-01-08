@@ -1,26 +1,45 @@
+/* Stile generale per la sezione Hero */
 .hero {
+  position: relative; /* Necessario per posizionare il video come sfondo */
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  color: rgba(0, 0, 0, 0.626);
+  min-height: 100vh; /* Altezza minima: copre l'intera viewport */
   text-align: center;
+  color: rgba(0, 0, 0, 0.626); /* Colore del testo */
+  overflow: hidden; /* Evita che il video o il contenuto esca dalla sezione */
 }
 
+/* Video come sfondo */
+.hero-video {
+  position: absolute; /* Posiziona il video dietro il contenuto */
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centra il video */
+  width: 100%; 
+  height: 100%;
+  object-fit: cover; /* Copre tutta la sezione senza distorsione */
+  z-index: -1; /* Mette il video dietro il contenuto */
+  opacity: 0.8;;
+}
+
+/* Titolo animato */
 .animated-title h1 {
   font-size: 4rem;
   font-weight: bold;
   margin-bottom: 20px;
-  color: var(--blue-logo);
+  color: var(--blue-logo); /* Personalizza il colore del titolo */
+  z-index: 1; /* Assicura che il titolo sia sopra il video */
 }
 
 .animated-title h2 {
   font-size: 2rem;
   line-height: 1.5;
+  z-index: 1; /* Assicura che il sottotitolo sia sopra il video */
 }
 
+/* Evidenziazione del testo */
 .highlight {
-  color: var(--blue-logo);
+  color: var(--blue-logo); /* Colore evidenziato */
   font-weight: bold;
 }
-

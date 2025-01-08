@@ -1,8 +1,16 @@
 .who-section {
-    padding: 6rem 0;
+   background-color: var(--azure-light);
 }
 
-.who-container h2 {
+.who-container {
+    max-width: 1200px; /* Larghezza massima della pagina */
+    margin: 0 auto; /* Centrare il contenitore */
+    padding: 6rem 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.who-container h2 {    
     text-align: left;
     font-size: 2.5rem;
     margin-bottom: 1rem;

@@ -1,16 +1,30 @@
 .timeline-section {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-  }
+  background-color: var(--azure-light);
+}
+
+.timeline-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; /* Per impilare elementi verticalmente */
+  align-items: flex-start; /* Allinea al bordo sinistro */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
   
-  .timeline-container {
-    position: relative;
-    width: 100%;
-  }
+.timeline-subcontainer {
+  position: relative;
+  width: 100%;
+  height: auto; /* Si adatta al contenuto */
+  padding-bottom: 170px; /* Spazio extra in basso */
+}
+
+
   
   /* Titolo allineato a sinistra e con uno spazio sotto */
-  .timeline-container h1 {
+  .timeline-subcontainer h1 {
     font-size: 2.5rem; /* Leggermente più piccolo */
     font-weight: bold;
     margin-bottom: 170px; /* Distacco maggiore sotto il titolo */
@@ -22,20 +36,20 @@
 
   
 .timeline-line {
-    position: absolute;
-    left: 26px; /* Posiziona la linea a sinistra */
-    top: 7px;
-    bottom: 0;
-    height: 900px;
-    width: 3px;
-    background-color: var(--blue-logo);
+  position: absolute;
+  left: 26px;
+  top: 0;
+  bottom: 120px; /* Assicura che occupi l'intera altezza del genitore */
+  width: 3px;
+  background-color: var(--blue-logo);
 }
+
 
 .timeline-line::before {
     content: '';
     position: absolute;
     top: -10px; /* Posiziona il pallino sopra la linea */
-    left: -10px; /* Centra il pallino sulla linea */
+    left: -11px; /* Centra il pallino sulla linea */
     width: 25px; /* Dimensione del pallino grande */
     height: 25px; /* Dimensione del pallino grande */
     background-color:var(--blue-logo);
@@ -121,37 +135,37 @@
   height: auto; /* Consenti un'altezza dinamica */
 }
   
-  .timeline_year {
-    color: #666;
-    font-size: 1.2rem;
-    margin-bottom: 4px;
-    margin-left: 50px; /* Add space after connecting line */
-    margin-top:60px;
+.timeline_year {
+  color: #666;
+  font-size: 1.2rem;
+  margin-bottom: 4px;
+  margin-left: 50px; /* Add space after connecting line */
+  margin-top:60px;
 }
   
-  .timeline-title {
-    color: var(--blue-logo);
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin: 0 0 12px 0;
-  }
+.timeline-title {
+  color: var(--blue-logo);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 12px 0;
+}
   
-  .timeline-description {
-    color: var(--blue-logo);
-    margin: 0;
-    line-height: 1.5;
-  }
+.timeline-description {
+  color: var(--blue-logo);
+  margin: 0;
+  line-height: 1.5;
+}
 
-  @media (max-width: 768px) {
-    
-    .timeline-line {
-      position: absolute;
-      left: 26px; /* Posiziona la linea a sinistra */
-      top: 7px;
-      bottom: 0;
-      height: 1000px;
-      width: 3px;
-      background-color: var(--blue-logo);
-  }
-  }
+@media (max-width: 650px) {
+  
+  .timeline-line {
+    position: absolute;
+    left: 26px; /* Posiziona la linea a sinistra */
+    top: 7px;
+    bottom: 0;
+    height: 1000px;
+    width: 3px;
+    background-color: var(--blue-logo);
+}
+}
   
