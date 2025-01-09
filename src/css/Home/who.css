@@ -20,10 +20,12 @@
 .who-content {
     margin: 0 auto;
     text-align: left;
+    
 }
 
 .who-content p {
     font-size: 1.2rem;
     line-height: 1.6;
     margin-bottom: 3.8rem;
+    color: var(--blue-logo);
 }
