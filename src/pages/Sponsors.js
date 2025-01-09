@@ -33,18 +33,18 @@ const Sponsors = () => {
       
       <h2>Sponsors</h2>
         <p>
-        If your company shares our vision of growth, development, and innovation, we invite you to become our partner. With your financial or technical support, we can achieve ambitious goals together.
+        If your company shares our vision of <b>growth</b>, <b>development</b>, and <b>innovation</b>, we invite you to become our partner. With your financial or technical support, we can achieve ambitious goals together.
         </p>
 
       <h4>Why become our sponsor</h4>
         <ul>
-          <li>Increase your company's visibility in a dynamic and impactful context.</li>
-          <li>Opportunity to collaborate on an innovative and cutting-edge project.</li>
+          <li>Increase your company's visibility in a <b>dynamic and impactful context</b>.</li>
+          <li>Opportunity to collaborate on an <b>innovative and cutting-edge project</b>.</li>
           <li>Active participation in grand challenges.</li>
         </ul>
 
       <p>
-      Join us and showcase your commitment to the growth of urban air mobility and the development of VTOL vehicles. Contact us to find out how we can work together!
+      Join us and showcase your commitment to the growth of urban air mobility and the <b>development of VTOL vehicles</b>. Contact us to find out how we can work together!
       </p>
 
       <h3>Main Sponsors</h3>
