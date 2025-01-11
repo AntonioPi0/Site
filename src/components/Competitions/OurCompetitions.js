@@ -25,8 +25,19 @@
               Geared toward university students, the competition fosters hands-on skills and deepens understanding of eVTOL and advanced air mobility (AAM) technologies.
               By taking part, we are helping to <b>shape the next generation of engineers</b> and leaders who will push the boundaries of this exciting field into the future.
               </p>
-              <div className="competition-button-container">
+          <div className="competition-button-container">
           <a href={"https://vtol.org/awards-and-contests/design-build-vertical-flight"} target="_blank" rel="noopener noreferrer" className="competition-button">
+            DISCOVER MORE...
+          </a>
+          </div>
+          <h3>Conference TU Delf: June 2026</h3>
+          <p>
+          The TU Delft Advanced Air Mobility (TA2M) group contributes to the <b>future of Urban Air Mobility</b> through expertise in aerodynamics, propulsion, flight mechanics, and more.
+          They create educational platforms and research opportunities for students and professionals at all levels, preparing the next generation of engineers for the <b>UAM sector</b>.
+          TA2M also promotes knowledge-sharing by organizing <b>conferences and workshops</b> on advanced air mobility innovations.
+          </p>
+          <div className="competition-button-container">
+          <a href={"https://www.tudelft.nl/lr/tu-delft-advanced-air-mobility-ta2m"} target="_blank" rel="noopener noreferrer" className="competition-button">
             DISCOVER MORE...
           </a>
           </div>
