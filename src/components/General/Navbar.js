@@ -44,6 +44,13 @@ const Navbar = () => {
             TEAM
           </NavLink>
           <NavLink
+            to="/competitions"
+            className={({ isActive }) => (isActive ? 'active' : '')}
+            onClick={() => setIsMenuOpen(false)} // Close menu on link click
+          >
+            COMPETITIONS
+          </NavLink>
+          <NavLink
             to="/sponsors"
             className={({ isActive }) => (isActive ? 'active' : '')}
             onClick={() => setIsMenuOpen(false)} // Close menu on link click
