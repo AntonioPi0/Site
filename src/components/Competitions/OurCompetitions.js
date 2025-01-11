@@ -15,7 +15,7 @@
               </p>
           <div className="competition-button-container">
           <a href={"https://vtol.org/awards-and-contests/student-design-competition"} target="_blank" rel="noopener noreferrer" className="competition-button">
-            DISCOVER MORE...
+            Discover More
           </a>
           </div>
               <h3>Design-Build Competition: March 2026</h3>
@@ -27,18 +27,18 @@
               </p>
           <div className="competition-button-container">
           <a href={"https://vtol.org/awards-and-contests/design-build-vertical-flight"} target="_blank" rel="noopener noreferrer" className="competition-button">
-            DISCOVER MORE...
+            Discover More
           </a>
           </div>
           <h3>Conference TU Delf: June 2026</h3>
           <p>
-          The TU Delft Advanced Air Mobility (TA2M) group contributes to the <b>future of Urban Air Mobility</b> through expertise in aerodynamics, propulsion, flight mechanics, and more.
-          They create educational platforms and research opportunities for students and professionals at all levels, preparing the next generation of engineers for the <b>UAM sector</b>.
-          TA2M also promotes knowledge-sharing by organizing <b>conferences and workshops</b> on advanced air mobility innovations.
+          We are proud to participate in <b>DICUAM2026</b>, a leading event focused on the future of Urban Air Mobility and FlyDrive systems.
+This competition gathers <b>experts</b> to address challenges in developing eVTOL vehicles for applications like <b>emergency transport</b>, <b>air taxis</b>, and <b>goods delivery</b>.
+Our contribution will focus on <b>innovative technical solutions</b>, while industrial insights will be discussed by experts.
           </p>
           <div className="competition-button-container">
-          <a href={"https://www.tudelft.nl/lr/tu-delft-advanced-air-mobility-ta2m"} target="_blank" rel="noopener noreferrer" className="competition-button">
-            DISCOVER MORE...
+          <a href={"https://www.dicuam2026.org/home"} target="_blank" rel="noopener noreferrer" className="competition-button">
+            Discover More
           </a>
           </div>
         </div>
