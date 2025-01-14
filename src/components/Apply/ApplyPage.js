@@ -2,7 +2,7 @@ import React from "react";
 import '../../css/main.css';
 
 const ApplyPage = () => {
-  const googleFormLink = "https://docs.google.com/forms/d/e/1FAIpQLSfBa4Jo_jN1BNf3HRZGnC5JyPGT_sfu1EGAc7V6rkDczt3CXQ/viewform"; // Replace with your form link
+  const googleFormLink = "https://docs.google.com/forms/d/e/1FAIpQLSdbOeKNvSeh9okj5bxhiobBXylIOdaZS2irX0Cpv_YrVvqPjw/viewform?usp=header"; // Replace with your form link
 
   return (
     <div className="apply-container">

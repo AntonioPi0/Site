@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../../css/main.css';
-import logo from '../../images/Zefiro_HLogo_NoBackground.png';
+import logo from '../../images/Zefiro_HLogo.png';
 import Burger from './Burger';
 
 const Navbar = () => {
