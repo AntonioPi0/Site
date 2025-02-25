@@ -50,7 +50,7 @@ const Team = () => {
           name: "Aerodynamics",
           leaders: [{ image: profilePic, name: "Niccolò", surname: "Fratamico", role: "Manager",
              email: "niccolo.fratamico@studenti.polito.it", linkedin: "#" }],
-          members: [],
+          members: ["Mauro Tringali"],
         },
         {
           name: "Aereoacustics",
