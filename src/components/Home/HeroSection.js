@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import '../../css/main.css';
 import 'animate.css';
-import droneVideo from '../../images/Video/drone.mp4';
+import droneVideo from '../../images/Video/drone_ZEFIRO.mp4';
 
 const HeroSection = () => {
   const videoRef = useRef(null);
