@@ -12,6 +12,7 @@ import image_francesca from '../images/Departments/image_francesca.jpg'
 import image_matteo from '../images/Departments/image_matteo.jpg'
 import image_niccolo from '../images/Departments/image_niccolo.jpg'
 import image_riccardo from '../images/Departments/image_riccardo.jpg'
+import image_mirko from '../images/Departments/image_mirko.jpg'
 import CustomPieChart from '../components/Team/CustomPieChart';
 import ScrollToTop from '../ScrollToTop';
 
@@ -23,7 +24,7 @@ const Team = () => {
 
   const president = {
     id: 1,
-    image: profilePic,
+    image: image_mirko,
     name: 'Mirko',
     surname: 'Franzoni',
     role: 'President',
