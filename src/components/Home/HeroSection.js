@@ -9,9 +9,9 @@ const HeroSection = () => {
   useEffect(() => {
     const video = videoRef.current;
     if (video) {
-      video.play().catch((error) => {
-        console.log('Autoplay bloccato:', error);
-      });
+      video
+        .play()
+        .catch((error) => console.log('Autoplay bloccato:', error));
     }
   }, []);
 
@@ -26,6 +26,7 @@ const HeroSection = () => {
         muted
         playsInline
         preload="auto"
+        aria-hidden="true"
       >
         <source src={droneVideo} type="video/mp4" />
         Your browser does not support the video tag.
@@ -34,7 +35,7 @@ const HeroSection = () => {
       {/* Text Content */}
       <div className="animated-title">
         <h1 className="animate__animated animate__fadeInDown">ZEFIRO</h1>
-        <h2 className="animate__animated animate__fadeInUp animate__slower">
+        <h2 className="animate__animated animate__fadeInUp">
           <span className="highlight">Z</span>onal <span className="highlight">E</span>-mobility{' '}
           <span className="highlight">F</span>lying <span className="highlight">I</span>nnovative{' '}
           <span className="highlight">RO</span>torcrafts
