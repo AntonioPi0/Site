@@ -47,18 +47,11 @@ const Team = () => {
       name: 'Aerodynamics & Aereoacustics',
       subDepartments: [
         {
-          name: "Aerodynamics",
+          name: "",
           leaders: [{ image: profilePic, name: "Niccolò", surname: "Fratamico", role: "Manager",
              email: "niccolo.fratamico@studenti.polito.it", linkedin: "#" }],
           members: ["Mauro Tringali"],
-        },
-        {
-          name: "Aereoacustics",
-          leaders: [{ image: profilePic, name: "Christian", surname: "Gambino", role: "Manager", 
-            email: "christian.gambino@studenti.polito.it", linkedin: "https://www.linkedin.com/in/christian-gambino/" }],
-          members: ["Lorenzo D'Alessandro","Gabriel Cialdini"],
-        }
-      ]
+        }]
     },
     {
       name: 'Propulsion',
