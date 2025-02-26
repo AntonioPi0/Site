@@ -18,6 +18,8 @@
 @import './Team/piecharts.css';
 @import './Team/departments.css';
 
+@import './Competitions/OurCompetitions.css';
+
 @import './Sponsor/sponsors_page.css';
 @import './Sponsor/sponsor.css';
 

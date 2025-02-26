@@ -1,0 +1,73 @@
+.competitions {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex; /* Use Flexbox for the layout */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    gap: 40px; /* Space between blocks */
+  }
+  
+  .competitions h2 {
+    text-align: left;
+    font-size: 4rem;
+    color: var(--blue-logo);
+    margin-bottom: 20px;
+    margin-top: 180px;
+    flex-basis: 100%; /* Ensure the title occupies the full width */
+  }
+
+  .competitions h3 {
+    text-align: left;
+    font-size: 1.5rem;
+    color: var(--blue-logo);
+    margin-bottom: 7px;
+    margin-top: 7px;
+    flex-basis: 100%; /* Ensure the title occupies the full width */
+  }
+  
+  .competitions p {
+    flex: 1 1 calc(50% - 20px); /* Default: Each paragraph takes 50% width minus the gap */
+    margin-top: 20px; 
+    font-size: 1.1rem;
+    color: var(--blue-logo);
+    line-height: 1.8; /* Increase line spacing for readability */
+    margin-bottom: 10px;
+    }
+
+    .competition-button-container {
+      text-align: center;
+    }
+    
+    .competition-button {
+      display: inline-block;
+      padding: 0.5px 4px;
+      font-size: 1.4rem;
+      color: var(--blue-logo);
+      border: 2px solid var(--blue-logo);
+      text-decoration: none;
+      border-radius: 3px;
+      margin-top: 3px;
+    }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 1024px)  {
+    .competitions p {
+      flex: 1 1 100%; /* Each paragraph takes 100% width */
+      text-align: left; /* Ensure text alignment is consistent */
+    }
+  
+    .competitions h2 {
+      margin-top: 180px; /* Adjust spacing for mobile */
+      font-size: 4rem; /* Smaller font size for the title */
+    }
+
+    .competitions h3 {
+      margin-top: 40px;
+      font-size: 2rem;
+    }
+  
+    .competitions {
+      gap: 20px; /* Reduce gap for a more compact layout on mobile */
+    }
+  }
+  
