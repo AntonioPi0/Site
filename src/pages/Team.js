@@ -55,7 +55,7 @@ const Team = () => {
         {
           name: "",
           leaders: [{ image: image_niccolo, name: "Niccolò", surname: "Fratamico", role: "Manager",
-             email: "niccolo.fratamico@studenti.polito.it", linkedin: "http://www.linkedin.com/in/niccolò-fratamico-74010734a/" }],
+             email: "niccolo.fratamico@studenti.polito.it", linkedin: "https://www.linkedin.com/in/niccol%C3%B2-fratamico-74010734a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " }],
           members: ["Mauro Tringali", "Lorenzo D'Alessandro", "Gabriel Cialdini", "Matteo Ferrero"],
         }]
     },
