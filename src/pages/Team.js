@@ -46,7 +46,7 @@ const Team = () => {
         name:"",
         leaders: [{image: image_alfonso, name: 'Alfonso', surname: 'Del Zingaro', role: 'Manager', 
         email:'alfonso.delzingaro@studenti.polito.it', linkedin: 'https://www.linkedin.com/in/alfonso-del-zingaro-73536b325/'}],
-        members: [],
+        members: ["Marco Robattino", "Ismaele Gravili", "Marco D'addato"],
       }]
     },
     {
@@ -56,7 +56,7 @@ const Team = () => {
           name: "",
           leaders: [{ image: image_niccolo, name: "Niccolò", surname: "Fratamico", role: "Manager",
              email: "niccolo.fratamico@studenti.polito.it", linkedin: "http://www.linkedin.com/in/niccolò-fratamico-74010734a/" }],
-          members: ["Mauro Tringali", "Lorenzo D'Alessandro", "Gabriel Cialdini"],
+          members: ["Mauro Tringali", "Lorenzo D'Alessandro", "Gabriel Cialdini", "Matteo Ferrero"],
         }]
     },
     {
@@ -69,7 +69,7 @@ const Team = () => {
             {image: image_riccardo, name: 'Riccardo', surname: 'Monteleone', role:'Manager',
               email:'riccardo.monteleone@studenti.polito.it', linkedin: 'https://www.linkedin.com/in/riccardo-monteleone-5a6b902a4/'}
           ],
-          members: []
+          members: ["Silvia Vivo"]
         }
       ]
       
@@ -87,7 +87,7 @@ const Team = () => {
           name: "Flight Mechanics",
           leaders: [{ image: image_francesca, name: "Francesca Pia", surname: "Vaccaro", role: "Manager", 
             email: "francescapia.vaccaro@studenti.polito.it", linkedin: "https://www.linkedin.com/in/francesca-pia-vaccaro-028218210/" }],
-          members: ["Francesca Bianco", "Tania Giannuzzi"],
+          members: ["Francesca Bianco", "Tania Giannuzzi", "Guido Di Lorenzo"],
         }
       ]
     }, 
