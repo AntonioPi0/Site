@@ -98,7 +98,7 @@ const Team = () => {
           name:"",
           leaders: [{image: image_dario, name: 'Dario', surname: 'Vetrano', role:'Manager',
           email:'dario.vetrano@studenti.polito.it', linkedin: 'https://www.linkedin.com/in/dario-vetrano-827b09218/'}],
-          members: ["Nima Nouri","Marcello Iacampo", "Marco Antonio Cannarsa","Erfan Haghighat Damavandi","Marco Rubens Ercole", "Ionut Covaci"],
+          members: ["Marcello Iacampo", "Marco Antonio Cannarsa","Marco Rubens Ercole", "Ionut Covaci"],
         }
       ]
       

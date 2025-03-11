@@ -163,7 +163,7 @@
     left: 26px; /* Posiziona la linea a sinistra */
     top: 7px;
     bottom: 0;
-    height: 1500px;
+    height: 100%;
     width: 3px;
     background-color: var(--blue-logo);
 }
