@@ -46,7 +46,7 @@ const Team = () => {
         name:"",
         leaders: [{image: image_alfonso, name: 'Alfonso', surname: 'Del Zingaro', role: 'Manager', 
         email:'alfonso.delzingaro@studenti.polito.it', linkedin: 'https://www.linkedin.com/in/alfonso-del-zingaro-73536b325/'}],
-        members: ["Marco Robattino", "Ismaele Gravili", "Marco D'addato"],
+        members: ["Marco Robattino", "Ismaele Gravili", "Marco D'addato","Vincenzo Faugiana", "Giuseppe Scrimali"],
       }]
     },
     {
@@ -69,7 +69,7 @@ const Team = () => {
             {image: image_riccardo, name: 'Riccardo', surname: 'Monteleone', role:'Manager',
               email:'riccardo.monteleone@studenti.polito.it', linkedin: 'https://www.linkedin.com/in/riccardo-monteleone-5a6b902a4/'}
           ],
-          members: ["Silvia Vivo"]
+          members: ["Silvia Vivo","Andrea Capitella"]
         }
       ]
       
@@ -81,7 +81,7 @@ const Team = () => {
           name: "Flight Simulation",
           leaders: [{ image: profilePic, name: "Primiano", surname: "D'Addatta", role: "Manager", 
             email: "primiano.daddetta@studenti.polito.it", linkedin: "https://www.linkedin.com/in/primiano-d-addetta-6a36b5239/" }],
-          members: [],
+          members: ["Aurora Guerriero", "Michele Dona"],
         },
         {
           name: "Flight Mechanics",
@@ -98,7 +98,7 @@ const Team = () => {
           name:"",
           leaders: [{image: image_dario, name: 'Dario', surname: 'Vetrano', role:'Manager',
           email:'dario.vetrano@studenti.polito.it', linkedin: 'https://www.linkedin.com/in/dario-vetrano-827b09218/'}],
-          members: ["Marcello Iacampo", "Marco Antonio Cannarsa","Marco Rubens Ercole", "Ionut Covaci"],
+          members: ["Marcello Iacampo", "Marco Antonio Cannarsa","Marco Rubens Ercole", "Ionut Covaci","Hasan Abdullah", "Davide Alban"],
         }
       ]
       
@@ -110,7 +110,7 @@ const Team = () => {
           name: "",
           leaders: [{ image: profilePic, name: "Antonio Pio", surname: "Evangelista", role: "Manager", 
             email: "antoniopio.evangelista@studenti.polito.it", linkedin: "https://www.linkedin.com/in/antonio-pio-evangelista" }],
-          members: ["Andrea Falaschi"],
+          members: ["Andrea Falaschi", "Balzhan Dosmukhametova", "Michele Pio Lasalvia", "Cornel Secrieri","Shayaan Raza Khan"],
         }
       ]
         
