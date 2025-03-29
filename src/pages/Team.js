@@ -50,7 +50,7 @@ const Team = () => {
       }]
     },
     {
-      name: 'Aerodynamics & Aereoacustics',
+      name: 'Aerodynamics & Aeroacustics',
       subDepartments: [
         {
           name: "",
