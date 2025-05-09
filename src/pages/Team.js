@@ -11,7 +11,6 @@ import image_dario from '../images/Departments/image_dario.jpg'
 import image_francesca from '../images/Departments/image_francesca.jpg'
 import image_matteo from '../images/Departments/image_matteo.jpg'
 import image_niccolo from '../images/Departments/image_niccolo.jpg'
-import image_riccardo from '../images/Departments/image_riccardo.jpg'
 import image_mirko from '../images/Departments/image_mirko.jpg'
 import CustomPieChart from '../components/Team/CustomPieChart';
 import ScrollToTop from '../ScrollToTop';
@@ -66,10 +65,8 @@ const Team = () => {
           name: '',
           leaders: [{image: image_matteo, name: 'Matteo', surname: 'Russo', role:'Manager',
             email:'s286538@studenti.polito.it', linkedin: 'https://www.linkedin.com/in/matteo-russo-5b3b13314/'},
-            {image: image_riccardo, name: 'Riccardo', surname: 'Monteleone', role:'Manager',
-              email:'riccardo.monteleone@studenti.polito.it', linkedin: 'https://www.linkedin.com/in/riccardo-monteleone-5a6b902a4/'}
           ],
-          members: ["Silvia Vivo","Andrea Capitella"]
+          members: ["Silvia Vivo","Giuseppe Bulla"]
         }
       ]
       
@@ -110,7 +107,7 @@ const Team = () => {
           name: "",
           leaders: [{ image: profilePic, name: "Antonio Pio", surname: "Evangelista", role: "Manager", 
             email: "antoniopio.evangelista@studenti.polito.it", linkedin: "https://www.linkedin.com/in/antonio-pio-evangelista" }],
-          members: ["Andrea Falaschi", "Balzhan Dosmukhametova", "Michele Pio Lasalvia", "Cornel Secrieri","Shayaan Raza Khan"],
+          members: ["Andrea Falaschi", "Balzhan Dosmukhametova", "Michele Pio Lasalvia", "Cornel Secrieri","Shayaan Raza Khan", "Mattia Schina"],
         }
       ]
         
