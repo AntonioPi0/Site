@@ -12,6 +12,7 @@ import image_francesca from '../images/Departments/image_francesca.jpg'
 import image_matteo from '../images/Departments/image_matteo.jpg'
 import image_niccolo from '../images/Departments/image_niccolo.jpg'
 import image_mirko from '../images/Departments/image_mirko.jpg'
+import image_antonio from '../images/Departments/image_antonio.jpeg'
 import CustomPieChart from '../components/Team/CustomPieChart';
 import ScrollToTop from '../ScrollToTop';
 
@@ -105,7 +106,7 @@ const Team = () => {
       subDepartments: [
         {
           name: "",
-          leaders: [{ image: profilePic, name: "Antonio Pio", surname: "Evangelista", role: "Manager", 
+          leaders: [{ image: image_antonio, name: "Antonio Pio", surname: "Evangelista", role: "Manager", 
             email: "antoniopio.evangelista@studenti.polito.it", linkedin: "https://www.linkedin.com/in/antonio-pio-evangelista" }],
           members: ["Andrea Falaschi", "Balzhan Dosmukhametova", "Michele Pio Lasalvia", "Cornel Secrieri","Shayaan Raza Khan", "Mattia Schina"],
         }
