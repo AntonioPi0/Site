@@ -8,7 +8,7 @@ import lerro_image from '../images/Advisors/immagine_Lerro.png';
 import Department from '../components/Team/Department';
 import image_alfonso from '../images/Departments/image_alfonso.jpg'
 import image_dario from '../images/Departments/image_dario.jpg'
-import image_francesca from '../images/Departments/image_francesca.jpg'
+//import image_francesca from '../images/Departments/image_francesca.jpg'
 import image_matteo from '../images/Departments/image_matteo.jpg'
 import image_niccolo from '../images/Departments/image_niccolo.jpg'
 import image_mirko from '../images/Departments/image_mirko.jpg'
@@ -46,7 +46,7 @@ const Team = () => {
         name:"",
         leaders: [{image: image_alfonso, name: 'Alfonso', surname: 'Del Zingaro', role: 'Manager', 
         email:'alfonso.delzingaro@studenti.polito.it', linkedin: 'https://www.linkedin.com/in/alfonso-del-zingaro-73536b325/'}],
-        members: ["Marco Robattino", "Ismaele Gravili", "Marco D'Addato","Vincenzo Faugiana", "Giuseppe Scrimali"],
+        members: ["Marco Fila Robattino", "Ismaele Gravili", "Marco D'Addato","Vincenzo Faugiana", "Francesca Vaccaro"],
       }]
     },
     {
@@ -56,7 +56,7 @@ const Team = () => {
           name: "",
           leaders: [{ image: image_niccolo, name: "Niccolò", surname: "Fratamico", role: "Manager",
              email: "niccolo.fratamico@studenti.polito.it", linkedin: "https://www.linkedin.com/in/niccol%C3%B2-fratamico-74010734a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " }],
-          members: ["Mauro Tringali", "Lorenzo D'Alessandro", "Gabriel Cialdini", "Matteo Ferrero","Mattia Macaluso"],
+          members: ["Alessandro Donina","Mauro Tringali", "Lorenzo D'Alessandro", "Matteo Ferrero","Mattia Macaluso"],
         }]
     },
     {
@@ -77,15 +77,12 @@ const Team = () => {
       subDepartments: [
         {
           name: "Flight Simulation",
-          leaders: [{ image: profilePic, name: "Primiano", surname: "D'Addatta", role: "Manager", 
+          leaders: [{ image: profilePic, name: "Primiano", surname: "D'Addetta", role: "Manager", 
             email: "primiano.daddetta@studenti.polito.it", linkedin: "https://www.linkedin.com/in/primiano-d-addetta-6a36b5239/" }],
-          members: ["Aurora Guerriero", "Michele Dona"],
-        },
-        {
-          name: "Flight Mechanics",
-          leaders: [{ image: image_francesca, name: "Francesca Pia", surname: "Vaccaro", role: "Manager", 
-            email: "francescapia.vaccaro@studenti.polito.it", linkedin: "https://www.linkedin.com/in/francesca-pia-vaccaro-028218210/" }],
-          members: ["Francesca Bianco", "Tania Giannuzzi", "Guido Di Lorenzo"],
+          members: ["Aurora Guerriero", "Michele Dona","Francesca Bianco", "Tania Giannuzzi", "Guido Di Lorenzo", "Luigi Vele"],
+
+          //leaders: [{ image: image_francesca, name: "Francesca Pia", surname: "Vaccaro", role: "Manager", 
+          //email: "francescapia.vaccaro@studenti.polito.it", linkedin: "https://www.linkedin.com/in/francesca-pia-vaccaro-028218210/" }],
         }
       ]
     }, 
@@ -96,7 +93,7 @@ const Team = () => {
           name:"",
           leaders: [{image: image_dario, name: 'Dario', surname: 'Vetrano', role:'Manager',
           email:'dario.vetrano@studenti.polito.it', linkedin: 'https://www.linkedin.com/in/dario-vetrano-827b09218/'}],
-          members: ["Marcello Iacampo", "Marco Antonio Cannarsa","Marco Rubens Ercole", "Ionut Covaci","Hasan Abdullah", "Davide Alban"],
+          members: ["Ionut Covaci","Marcello Iacampo", "Marco Antonio Cannarsa","Hasan Abdullah", "Davide Alban"],
         }
       ]
       
@@ -107,11 +104,21 @@ const Team = () => {
         {
           name: "",
           leaders: [{ image: image_antonio, name: "Antonio Pio", surname: "Evangelista", role: "Manager", 
-            email: "antoniopio.evangelista@studenti.polito.it", linkedin: "https://www.linkedin.com/in/antonio-pio-evangelista" }],
+          email: "antoniopio.evangelista@studenti.polito.it", linkedin: "https://www.linkedin.com/in/antonio-pio-evangelista" }],
           members: ["Andrea Falaschi", "Balzhan Dosmukhametova", "Michele Pio Lasalvia", "Cornel Secrieri","Shayaan Raza Khan", "Mattia Schina"],
         }
       ]
         
+    },
+    {
+      name: "Management",
+      subDepartments: [
+        {
+          name: "",
+          leaders: [{ image: profilePic, name: "Camille", surname: "Baldi", role: "Manager", 
+          email: "s346304@studenti.polito.it", linkedin: "https://www.linkedin.com/in/camille-baldi" }],
+        }
+      ]
     }
   ];
   
