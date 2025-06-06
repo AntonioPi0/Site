@@ -77,7 +77,6 @@ const Team = () => {
       name: 'Flight Mechanics & Flight Simulation',
       subDepartments: [
         {
-          name: "Flight Simulation",
           leaders: [{ image: image_primiano, name: "Primiano", surname: "D'Addetta", role: "Manager", 
             email: "primiano.daddetta@studenti.polito.it", linkedin: "https://www.linkedin.com/in/primiano-d-addetta-6a36b5239/" }],
           members: [ "Francesca Vaccaro", "Aurora Guerriero", "Michele Dona","Francesca Bianco", "Tania Giannuzzi", "Guido Di Lorenzo", "Luigi Vele", "Lapo Cortopassi", "Giuseppe Bulla"],
