@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.ddec0b80.css",
-    "main.js": "/static/js/main.747837d0.js",
+    "main.js": "/static/js/main.9a2c4db3.js",
     "static/js/453.6eec64e3.chunk.js": "/static/js/453.6eec64e3.chunk.js",
     "static/media/drone_ZEFIRO.mp4": "/static/media/drone_ZEFIRO.b302cb6c8a6bb5a712f1.mp4",
     "static/media/image_dario.jpg": "/static/media/image_dario.2257f37c0629dce4bba7.jpg",
     "static/media/image_niccolo.jpg": "/static/media/image_niccolo.0d9964f993bf258500b5.jpg",
-    "static/media/image_matteo.jpg": "/static/media/image_matteo.3ab925f933f97c384aa6.jpg",
     "static/media/immagine_Lerro.png": "/static/media/immagine_Lerro.514cf17fc1b853f769a4.png",
     "static/media/image_antonio.jpeg": "/static/media/image_antonio.d85dee7897fc664d891b.jpeg",
     "static/media/immagine_Avallone.png": "/static/media/immagine_Avallone.916a4b5dea768f45b9f5.png",
@@ -14,14 +13,15 @@
     "static/media/image_mirko.jpg": "/static/media/image_mirko.69f96253a098a29611f2.jpg",
     "static/media/Zefiro_HLogo.png": "/static/media/Zefiro_HLogo.93965c5cb2aa3ce43104.png",
     "static/media/logo_white.png": "/static/media/logo_white.d7af46a27e0d3c15ecb1.png",
+    "static/media/image_primiano.jpeg": "/static/media/image_primiano.62e66d3a741c097c8bcf.jpeg",
     "static/media/Politecnico_logo.png": "/static/media/Politecnico_logo.629c508038f7f915fee0.png",
     "index.html": "/index.html",
     "main.ddec0b80.css.map": "/static/css/main.ddec0b80.css.map",
-    "main.747837d0.js.map": "/static/js/main.747837d0.js.map",
+    "main.9a2c4db3.js.map": "/static/js/main.9a2c4db3.js.map",
     "453.6eec64e3.chunk.js.map": "/static/js/453.6eec64e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ddec0b80.css",
-    "static/js/main.747837d0.js"
+    "static/js/main.9a2c4db3.js"
   ]
 }

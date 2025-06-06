@@ -8,11 +8,12 @@ import lerro_image from '../images/Advisors/immagine_Lerro.png';
 import Department from '../components/Team/Department';
 import image_alfonso from '../images/Departments/image_alfonso.jpg'
 import image_dario from '../images/Departments/image_dario.jpg'
-//import image_francesca from '../images/Departments/image_francesca.jpg'
-import image_matteo from '../images/Departments/image_matteo.jpg'
+// import image_francesca from '../images/Departments/image_francesca.jpg'
+// import image_matteo from '../images/Departments/image_matteo.jpg'
 import image_niccolo from '../images/Departments/image_niccolo.jpg'
 import image_mirko from '../images/Departments/image_mirko.jpg'
 import image_antonio from '../images/Departments/image_antonio.jpeg'
+import image_primiano from '../images/Departments/image_primiano.jpeg'
 import CustomPieChart from '../components/Team/CustomPieChart';
 import ScrollToTop from '../ScrollToTop';
 
@@ -46,7 +47,7 @@ const Team = () => {
         name:"",
         leaders: [{image: image_alfonso, name: 'Alfonso', surname: 'Del Zingaro', role: 'Manager', 
         email:'alfonso.delzingaro@studenti.polito.it', linkedin: 'https://www.linkedin.com/in/alfonso-del-zingaro-73536b325/'}],
-        members: ["Marco Fila Robattino", "Ismaele Gravili", "Marco D'Addato","Vincenzo Faugiana", "Francesca Vaccaro", "Jacopo Vetrano"],
+        members: ["Marco Fila Robattino", "Ismaele Gravili", "Marco D'Addato","Vincenzo Faugiana", "Jacopo Vetrano"],
       }]
     },
     {
@@ -56,10 +57,10 @@ const Team = () => {
           name: "",
           leaders: [{ image: image_niccolo, name: "Niccolò", surname: "Fratamico", role: "Manager",
              email: "niccolo.fratamico@studenti.polito.it", linkedin: "https://www.linkedin.com/in/niccol%C3%B2-fratamico-74010734a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " }],
-          members: ["Alessandro Donina","Mauro Tringali", "Lorenzo D'Alessandro", "Matteo Ferrero","Mattia Macaluso"],
+          members: ["Matteo Russo","Alessandro Donina","Gabriel Cialdini","Mauro Tringali", "Lorenzo D'Alessandro", "Matteo Ferrero","Mattia Macaluso","Silvia Vivo"],
         }]
     },
-    {
+/*    {
       name: 'Propulsion',
       subDepartments: [
         {
@@ -71,15 +72,15 @@ const Team = () => {
         }
       ]
       
-    },
+    },*/
     {
       name: 'Flight Mechanics & Flight Simulation',
       subDepartments: [
         {
           name: "Flight Simulation",
-          leaders: [{ image: profilePic, name: "Primiano", surname: "D'Addetta", role: "Manager", 
+          leaders: [{ image: image_primiano, name: "Primiano", surname: "D'Addetta", role: "Manager", 
             email: "primiano.daddetta@studenti.polito.it", linkedin: "https://www.linkedin.com/in/primiano-d-addetta-6a36b5239/" }],
-          members: ["Aurora Guerriero", "Michele Dona","Francesca Bianco", "Tania Giannuzzi", "Guido Di Lorenzo", "Luigi Vele"],
+          members: [ "Francesca Vaccaro", "Aurora Guerriero", "Michele Dona","Francesca Bianco", "Tania Giannuzzi", "Guido Di Lorenzo", "Luigi Vele", "Lapo Cortopassi", "Giuseppe Bulla"],
 
           //leaders: [{ image: image_francesca, name: "Francesca Pia", surname: "Vaccaro", role: "Manager", 
           //email: "francescapia.vaccaro@studenti.polito.it", linkedin: "https://www.linkedin.com/in/francesca-pia-vaccaro-028218210/" }],
