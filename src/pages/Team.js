@@ -46,7 +46,7 @@ const Team = () => {
         name:"",
         leaders: [{image: image_alfonso, name: 'Alfonso', surname: 'Del Zingaro', role: 'Manager', 
         email:'alfonso.delzingaro@studenti.polito.it', linkedin: 'https://www.linkedin.com/in/alfonso-del-zingaro-73536b325/'}],
-        members: ["Marco Fila Robattino", "Ismaele Gravili", "Marco D'Addato","Vincenzo Faugiana", "Francesca Vaccaro"],
+        members: ["Marco Fila Robattino", "Ismaele Gravili", "Marco D'Addato","Vincenzo Faugiana", "Francesca Vaccaro", "Jacopo Vetrano"],
       }]
     },
     {
@@ -93,7 +93,7 @@ const Team = () => {
           name:"",
           leaders: [{image: image_dario, name: 'Dario', surname: 'Vetrano', role:'Manager',
           email:'dario.vetrano@studenti.polito.it', linkedin: 'https://www.linkedin.com/in/dario-vetrano-827b09218/'}],
-          members: ["Ionut Covaci","Marcello Iacampo", "Marco Antonio Cannarsa","Hasan Abdullah", "Davide Alban", "Jacopo Vetrano"],
+          members: ["Ionut Covaci","Marcello Iacampo", "Marco Antonio Cannarsa","Hasan Abdullah", "Davide Alban"],
         }
       ]
       
