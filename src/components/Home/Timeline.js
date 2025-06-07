@@ -14,12 +14,6 @@ const Timeline = () => {
       description: <>Annual Student Design Competition, VFS, Pioneering Hydrogen-Electric
        VTOL, sponsored by Airbus</>
     },
-    { 
-      date: "September 2025",
-      title: "GoAERO Competition Stage 2",
-      description: <>GoAERO challenges partecipants to create a compact, autonomy-enabled rescue aircraft
-      that is safe and simple to fly</>
-    },
     {
       date: "March 2026",
       title: "Design-Build Competition ",
