@@ -18,18 +18,6 @@
             Discover More
           </a>
           </div>
-          <h3>GoAERO Competition stage 2: September 2025</h3>
-              <p>
-              <b>Stage 2</b> focuses on the <b>practical development and validation</b> of the proposed designs.
-               Teams are required to construct either <b>full-scale or scaled prototypes</b> of their flyers and demonstrate their <b>flight capabilities</b>
-                while carrying <b>payloads</b>. The <b>deadline</b> for Stage 2 submissions is <b>September 30, 2025</b>.
-                 Up to <b>eight teams</b> will be selected as winners, each receiving <b>$40,000</b>.
-              </p>
-              <div className="competition-button-container">
-          <a href={"https://www.herox.com/goaero"} target="_blank" rel="noopener noreferrer" className="competition-button">
-            Discover More
-          </a>
-          </div>
               <h3>Design-Build Competition: March 2026</h3>
               <p>
               We are proud participants in this innovative competition organized by <b>Vertical Flight Society</b> centered around <b>electric-powered remote-control</b> vertical take-off and landing (VTOL) aircraft.
